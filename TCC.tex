@@ -1,0 +1,183 @@
+\include{fixos/pacoteseclass}
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+\pagestyle{myheadings}
+
+\usepackage{float}
+%\usepackage[a4paper,bottom=2cm,top=3cm,left=3cm,right=2cm]{geometry}
+\usepackage{acronym}
+
+% Informações de dados para CAPA e FOLHA DE ROSTO
+\titulo{\uppercase{PWA}}
+\autor{Pedro Cruz}
+\local{Fortaleza, Ceará}
+\data{2019}
+\orientador{Prof Msc. Fred Viana}
+
+
+\include{fixos/instituicao/redes}
+
+\begin{document}
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+% Capa
+\imprimircapa
+% Folha de rosto (* indica que haverá a ficha bibliográfica)
+\imprimirfolhaderosto*
+
+% Ficha Bibliográfica
+%\include{fixos/fichabibliografica}
+
+% Errata
+%\include{editaveis/errata}
+
+% Folha de Aprovação
+%\include{editaveis/folhadeaprovacao}
+%\imprimirfolhadeaprovacao
+
+% Dedicatória
+%\include{editaveis/dedicatoria}
+
+% Agradecimentos
+%\include{editaveis/agradecimentos}
+
+% Epígrafe
+%\include{editaveis/epigrafe}
+
+% RESUMOS
+%\include{resumo/ptbr}
+%\include{resumo/us}
+%\include{resumo/fr}
+%\include{resumo/es}
+
+% Lista de ilustrações
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+
+% Lista de tabelas
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+
+% Lista de Siglas
+\pdfbookmark[0]{Lista de abreviaturas e siglas}{loa}
+\include{abreviaturas/abreviaturas}
+\newpage
+
+\renewcommand*{\cftsectionfont}{\normalfont}
+\renewcommand*{\cftchapterpagefont}{\normalfont}
+% Abreviaturas e Siglas
+%\include{editaveis/siglas}
+
+% Símbolos
+%\include{editaveis/simbolos}
+
+% Sumário
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\include{capitulos/cap1}%introdução
+\include{capitulos/cap2}%arquiteturas web
+\include{capitulos/cap3}%Arquitetura do MOBILE
+\include{capitulos/cap4}%Introdução ao PWA
+\include{capitulos/cap5}%Estudo Comparativo (Tabela evidenciando a diferença MOBILE x WEB x PWA)
+\include{capitulos/cap6}%Estudo de Caso
+\include{capitulos/cap7}% Conclusao
+% ----------------------------------------------------------
+% PARTE I
+% ----------------------------------------------------------
+%\part{Preparação da pesquisa}
+
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+%\include{fundamentacao-teorica}
+%\include{trabalho-relacionado}
+%\include{abntex2-modelo-include-comandos}
+%\include{objetivos}
+% ----------------------------------------------------------
+% PARTE II
+% ----------------------------------------------------------
+%\part{Referenciais Teóricos}
+
+
+% Capitulo de revisão de literatura
+%\chapter{Lorem ipsum dolor sit amet}
+%\include{procedimento-metodologico}
+
+
+% ----------------------------------------------------------
+% PARTE III
+% ----------------------------------------------------------
+%\part{Resultados}
+%\include{desenvolvimento-resultados}
+
+%\include{discussao}
+
+%\include{consideracoes-finais}
+% ---
+% primeiro capitulo de Resultados
+%\chapter{Lectus lobortis condimentum}
+
+%\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae}
+
+%\lipsum[21-22]
+
+% ---
+% segundo capitulo de Resultados
+%\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum elementum}
+
+%\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
+
+%\lipsum[24]
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF para que se inicie o bookmark na raiz e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+\phantompart
+
+% ---
+% Conclusão (outro exemplo de capítulo sem numeração e presente no sumário)
+%\chapter*[Conclusão]{Conclusão}
+%\addcontentsline{toc}{chapter}{Conclusão}
+
+%\lipsum[31-33]
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% Referências bibliográficas
+\bibliography{bibtex/referencias}
+
+% Glossário (Consulte o manual da classe abntex2 para orientações sobre o glossário)
+%\glossary
+
+% Apêndices
+%\include{editaveis/apendices}
+
+% Anexos
+%\include{editaveis/anexos}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+\end{document}

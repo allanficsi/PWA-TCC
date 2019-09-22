@@ -1,0 +1,133 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[CanalTech 2017]{canaltechFlashFim2018}
+\abntrefinfo{CanalTech}{CANALTECH}{2017}
+{CANALTECH. \emph{Adobe anuncia o fim do Flash para 2020}. 2017. CanalTech.
+Dispon{\'\i}vel em:
+  \url{https://canaltech.com.br/software/adobe-anuncia-o-fim-do-flash-para-2020-97778/}.
+  Acesso em: 31 jul 2018.}
+
+\bibitem[Cipoli 2018]{canaltechFlash2018}
+\abntrefinfo{Cipoli}{CIPOLI}{2018}
+{CIPOLI, P. \emph{O que é o Adobe Flash?} 2018. CanalTech.
+Dispon{\'\i}vel em:
+  \url{https://canaltech.com.br/software/O-que-e-o-Adobe-Flash/}. Acesso em: 31
+  jul 2018.}
+
+\bibitem[Clustox 2018]{native}
+\abntrefinfo{Clustox}{CLUSTOX}{2018}
+{CLUSTOX. \emph{Aplicação Nativa}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.clustox.com/blog/native-app-vs-pwa-comparative-study}.}
+
+\bibitem[Codica 2019]{pwabenefits}
+\abntrefinfo{Codica}{CODICA}{2019}
+{CODICA. \emph{PWA Benefits}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.codica.com/blog/what-are-pwas-and-their-benefits/}.}
+
+\bibitem[Devsaran 2016]{devsaran2018}
+\abntrefinfo{Devsaran}{DEVSARAN}{2016}
+{DEVSARAN. \emph{From History of Web Application Development}. 2016.
+Dispon{\'\i}vel em:
+  \url{https://www.devsaran.com/blog/history-web-application-development}.
+  Acesso em: 31 jul 2018.}
+
+\bibitem[Firtman 2018]{pwaios}
+\abntrefinfo{Firtman}{FIRTMAN}{2018}
+{FIRTMAN, M. \emph{PWA IOS}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7}.}
+
+\bibitem[Fowler 2014]{microservices2014}
+\abntrefinfo{Fowler}{FOWLER}{2014}
+{FOWLER, M. \emph{Microservices}. 2014.
+Dispon{\'\i}vel em:
+  \url{https://martinfowler.com/articles/microservices.html}.}
+
+\bibitem[Google Developers 2019]{manifest}
+\abntrefinfo{Google Developers}{GOOGLE DEVELOPERS}{2019a}
+{GOOGLE DEVELOPERS. \emph{Manifesto}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://developers.google.com/web/fundamentals/web-app-manifest}.}
+
+\bibitem[Google Developers 2019]{pwa}
+\abntrefinfo{Google Developers}{GOOGLE DEVELOPERS}{2019b}
+{GOOGLE DEVELOPERS. \emph{PWA: Definição}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://codelabs.developers.google.com/codelabs/your-first-pwapp}.}
+
+\bibitem[Granatyr 2007]{devmediaMultiCamada2018}
+\abntrefinfo{Granatyr}{GRANATYR}{2007}
+{GRANATYR, J. \emph{Introdução ao Modelo Multicamadas}. 2007.
+Dispon{\'\i}vel em:
+  \url{https://www.devmedia.com.br/introducao-ao-modelo-multicamadas/5541}.}
+
+\bibitem[Marques 2016]{devmediaAsync2018}
+\abntrefinfo{Marques}{MARQUES}{2016}
+{MARQUES, R. \emph{Ajax com jQuery: Trabalhando com requisições
+  assíncronas}. 2016.
+Dispon{\'\i}vel em:
+  \url{https://www.devmedia.com.br/ajax-com-jquery-trabalhando-com-requisicoes-assincronas/37141}.}
+
+\bibitem[Martins 2012]{devmediaMultiCamadaP12018}
+\abntrefinfo{Martins}{MARTINS}{2012}
+{MARTINS, C. \emph{Aplicações corporativas multicamadas - Partes 1 e 2}.
+  2012.
+Dispon{\'\i}vel em:
+  \url{https://www.devmedia.com.br/aplicacoes-corporativas-multicamadas-partes-1-e-2/26545}.}
+
+\bibitem[MDN 2018]{mozilla2018}
+\abntrefinfo{MDN}{MDN}{2018}
+{MDN. \emph{Web Docs - JavaScript}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://developer.mozilla.org/pt-BR/docs/Web/JavaScript}. Acesso em: 31
+  jul 2018.}
+
+\bibitem[MDN 2019]{manifestfile}
+\abntrefinfo{MDN}{MDN}{2019}
+{MDN. \emph{Arquivo de Manifesto}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://developer.mozilla.org/pt-BR/docs/Web/Manifest}.}
+
+\bibitem[Pereira 2009]{devmediaCSS2018}
+\abntrefinfo{Pereira}{PEREIRA}{2009}
+{PEREIRA, A. \emph{A origem do CSS, um pouco da história.} 2009.
+Dispon{\'\i}vel em:
+  \url{https://www.devmedia.com.br/a-origem-do-css-um-pouco-da-historia/15195}.}
+
+\bibitem[PWA Overview]{pwa2}
+\abntrefinfo{PWA\ldots}{PWA\ldots}{}
+{PWA Overview.
+Dispon{\'\i}vel em:
+  \url{https://willianjusten.com.br/como-fazer-seu-site-funcionar-offline-com-pwa/}.}
+
+\bibitem[Rocha 1999]{rocha99}
+\abntrefinfo{Rocha}{ROCHA}{1999}
+{ROCHA, H. L.~S. da. \emph{{Arquitetura WEB}}. [S.l.]: EP:SF-Rio/D99, 1999.}
+
+\bibitem[Santos 2017]{monoVsMicro2017}
+\abntrefinfo{Santos}{SANTOS}{2017}
+{SANTOS, L. \emph{Microserviços: dos grandes monólitos às pequenas rotas}.
+  2017.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/trainingcenter/microserviços-dos-grandes-monólitos-às-pequenas-rotas-adb70303b6a3}.}
+
+\bibitem[Service Workers]{servicework}
+\abntrefinfo{Service\ldots}{SERVICE\ldots}{}
+{SERVICE Workers.
+Dispon{\'\i}vel em:
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}.}
+
+\bibitem[Thoms 2017]{fasthosts2018}
+\abntrefinfo{Thoms}{THOMS}{2017}
+{THOMS, N. \emph{A look back at HTML5}. 2017. FastHosts.
+Dispon{\'\i}vel em:
+  \url{https://www.fasthosts.co.uk/blog/websites/look-back-html5}.}
+
+\end{thebibliography}

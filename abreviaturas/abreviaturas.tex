@@ -1,0 +1,34 @@
+%%%%%%%%%%%%%% Como usar o pacote acronym
+% \ac{acronimo} -- Na primeira vez que for citado o acronimo, o nome completo irá aparecer
+%                  seguido do acronimo entre parênteses. Na proxima vez somente o acronimo
+%                  irá aparecer. Se usou a opção footnote no pacote, entao o nome por extenso
+%                  irá aparecer aparecer no rodapé
+%
+% \acf{acronimo} -- Para aparecer com nome completo + acronimo
+% \acs{acronimo} -- Para aparecer somente o acronimo
+% \acl{acronimo} -- Nome por extenso somente, sem o acronimo
+% \acp{acronimo} -- igual o \ac mas deixando no plural com S (ingles)
+% \acfp{acronimo}--
+% \acsp{acronimo}--
+% \aclp{acronimo}--
+
+\chapter*{Lista de abreviaturas e siglas}%
+% \addcontentsline{toc}{chapter}{Lista de abreviaturas e siglas}
+\markboth{Lista de abreviaturas e siglas}{}
+
+\begin{acronym}
+	\acro{API}{Interface de Programação de Aplicações}
+	\acro{CERN}{Organização Europeia para a Pesquisa Nuclear}
+	\acro{CSS}{\textit{Cascading Style Sheets}}
+	\acro{DOM}{Modelo de Objeto de Documento}
+	\acro{HTML}{Linguagem de Marcação de Hipertexto}
+	\acro{HTTP}{Protocolo de Transferência de Hipertexto}
+	\acro{JS}{JavaScript}
+	\acro{JSON}{Notação de Objetos JavaScript}
+	\acro{PWA}{\textit{Progressive Web App}}
+	\acro{SGBD}{Sistema Gerenciador de Banco de Dados}
+	\acro{SO}{Sistema Operacional}
+	\acro{UI}{\textit{User Interface}}
+	\acro{W3C}{\textit{World Wide Web Consortium}}
+	\acro{WWW}{\textit{World Wide Web}}
+\end{acronym}
