@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.8)  22 SEP 2019 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.21)  21 OCT 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1226,55 +1226,51 @@ although it is yet undefined on input line 17.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 25.
-[9] [10]
-<images/cliente-servidor.JPG, id=250, 389.20406pt x 286.82156pt>
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+ [9] [10]
+<images/cliente-servidor.JPG, id=252, 389.20406pt x 286.82156pt>
 File: images/cliente-servidor.JPG Graphic file (type jpg)
 <use images/cliente-servidor.JPG>
-Package pdftex.def Info: images/cliente-servidor.JPG  used on input line 45.
-(pdftex.def)             Requested size: 252.97964pt x 186.4318pt.
+Package pdftex.def Info: images/cliente-servidor.JPG  used on input line 48.
+(pdftex.def)             Requested size: 233.52423pt x 172.09425pt.
 Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
-although it is yet undefined on input line 50.
+although it is yet undefined on input line 53.
  [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 
+l.54 
       <./images/cliente-servidor.JPG>]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
  [12]
-<images/multicamada.jpg, id=274, 676.5275pt x 274.02374pt>
+<images/multicamada.jpg, id=282, 676.5275pt x 274.02374pt>
 File: images/multicamada.jpg Graphic file (type jpg)
 <use images/multicamada.jpg>
-Package pdftex.def Info: images/multicamada.jpg  used on input line 82.
+Package pdftex.def Info: images/multicamada.jpg  used on input line 85.
 (pdftex.def)             Requested size: 398.33858pt x 161.35065pt.
  [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.90 
+l.93 
       <./images/multicamada.jpg>]
 Package acronym Info: Label `acro:SGBD' newly defined as it shall be overridden
 
-although it is yet undefined on input line 97.
+although it is yet undefined on input line 100.
  [14] [15]
-<images/app-monolitica.png, id=304, 602.25pt x 305.14pt>
+<images/app-monolitica.png, id=323, 602.25pt x 305.14pt>
 File: images/app-monolitica.png Graphic file (type png)
 <use images/app-monolitica.png>
-Package pdftex.def Info: images/app-monolitica.png  used on input line 139.
+Package pdftex.def Info: images/app-monolitica.png  used on input line 142.
 (pdftex.def)             Requested size: 421.57211pt x 213.59653pt.
 
 
@@ -1282,32 +1278,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
 Package acronym Info: Label `acro:JS' newly defined as it shall be overridden
-although it is yet undefined on input line 148.
-Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 151.
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 154.
  [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.159 	\item N
+l.162 	\item N
               ão há duplicidade de código. <./images/app-monolitica.png (PNG
  copy)>]
 Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 177.
+although it is yet undefined on input line 180.
  [18]
-<images/micro-deployment.png, id=345, 780.9175pt x 364.36125pt>
+<images/micro-deployment.png, id=366, 780.9175pt x 364.36125pt>
 File: images/micro-deployment.png Graphic file (type png)
 <use images/micro-deployment.png>
-Package pdftex.def Info: images/micro-deployment.png  used on input line 184.
+Package pdftex.def Info: images/micro-deployment.png  used on input line 187.
 (pdftex.def)             Requested size: 426.79134pt x 199.13168pt.
  [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204 	\item S
+l.207 	\item S
               e a aplicação não for bem documentada, a arquitetura geral ...
  <./images/micro-deployment.png>]) [20]
 \openout2 = `capitulos/cap3.aux'.
@@ -1333,23 +1329,10 @@ Underfull \hbox (badness 1735) in paragraph at lines 1--1
 
 
 ]
-
-Package hyperref Warning: Suppressing empty link on input line 31.
-
 Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
-[23]
-
-Package hyperref Warning: Suppressing empty link on input line 41.
-
-
-Package hyperref Warning: Suppressing empty link on input line 43.
-
-
-Package hyperref Warning: Suppressing empty link on input line 45.
-
-[24]
-<images/sw-lifecycle.png, id=401, 704.6325pt x 687.56876pt>
+ [23] [24]
+<images/sw-lifecycle.png, id=428, 704.6325pt x 687.56876pt>
 File: images/sw-lifecycle.png Graphic file (type png)
 <use images/sw-lifecycle.png>
 Package pdftex.def Info: images/sw-lifecycle.png  used on input line 53.
@@ -1357,31 +1340,27 @@ Package pdftex.def Info: images/sw-lifecycle.png  used on input line 53.
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 65.
-<images/add-to-home-screen.png, id=408, 813.0375pt x 481.8pt>
-File: images/add-to-home-screen.png Graphic file (type png)
-<use images/add-to-home-screen.png>
-Package pdftex.def Info: images/add-to-home-screen.png  used on input line 70.
-(pdftex.def)             Requested size: 341.43306pt x 202.32521pt.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.73 \end{figure}
-                  <./images/sw-lifecycle.png>] [26pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.4.6}) has been already used, duplic
-ate ignored
+l.66 
+      <./images/sw-lifecycle.png>]
+<images/add-to-home-screen.png, id=446, 813.0375pt x 481.8pt>
+File: images/add-to-home-screen.png Graphic file (type png)
+<use images/add-to-home-screen.png>
+Package pdftex.def Info: images/add-to-home-screen.png  used on input line 70.
+(pdftex.def)             Requested size: 341.43306pt x 202.32521pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.85 	\item s
              hort name - Fornece um nome curto legível para o aplicativo. I...
- <./images/add-to-home-screen.png>]
-
-Package hyperref Warning: Suppressing empty link on input line 99.
-
-[27] [28]
-<images/pwa_custom.png, id=455, 1722.435pt x 1245.65375pt>
+ <./images/add-to-home-screen.png>] [27] [28]
+<images/pwa_custom.png, id=492, 1722.435pt x 1245.65375pt>
 File: images/pwa_custom.png Graphic file (type png)
 <use images/pwa_custom.png>
 Package pdftex.def Info: images/pwa_custom.png  used on input line 111.
@@ -1450,7 +1429,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: BD1839435705B71513572451A584B9DB;2295.
+(rerunfilecheck)             Checksum: B4F44D172FC0C19E73920EB42E421CC6;3119.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1458,22 +1437,22 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 15071 strings out of 492982
- 222069 string characters out of 6134897
- 492699 words of memory out of 5000000
- 17934 multiletter control sequences out of 15000+600000
- 43316 words of font info for 200 fonts, out of 8000000 for 9000
+ 15108 strings out of 492982
+ 222784 string characters out of 6134895
+ 494016 words of memory out of 5000000
+ 17974 multiletter control sequences out of 15000+600000
+ 42688 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,40p,1532b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,40p,1373b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on TCC.pdf (38 pages, 690080 bytes).
+Output written on TCC.pdf (38 pages, 692392 bytes).
 PDF statistics:
- 783 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 171 named destinations out of 1000 (max. 500000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 762 compressed objects within 8 object streams
+ 174 named destinations out of 1000 (max. 500000)
  23505 words of extra memory for PDF output out of 24883 (max. 10000000)
 

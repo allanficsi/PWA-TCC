@@ -50,6 +50,12 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://martinfowler.com/articles/microservices.html}.}
 
+\bibitem[Googe Developers 2019]{servicework}
+\abntrefinfo{Googe Developers}{GOOGE DEVELOPERS}{2019}
+{GOOGE DEVELOPERS. \emph{Service Workers}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}.}
+
 \bibitem[Google Developers 2019]{manifest}
 \abntrefinfo{Google Developers}{GOOGLE DEVELOPERS}{2019a}
 {GOOGLE DEVELOPERS. \emph{Manifesto}. 2019.
@@ -67,6 +73,24 @@ Dispon{\'\i}vel em:
 {GRANATYR, J. \emph{Introdução ao Modelo Multicamadas}. 2007.
 Dispon{\'\i}vel em:
   \url{https://www.devmedia.com.br/introducao-ao-modelo-multicamadas/5541}.}
+
+\bibitem[Jomendez 2018]{pwaHomeScreen}
+\abntrefinfo{Jomendez}{JOMENDEZ}{2018}
+{JOMENDEZ. \emph{PWA Add Home Screen}. 2018.
+Dispon{\'\i}vel em:
+  \url{http://www.jomendez.com/2018/06/05/add-home-screen-pwas/}.}
+
+\bibitem[Justen 2018]{pwa2}
+\abntrefinfo{Justen}{JUSTEN}{2018}
+{JUSTEN, W. \emph{PWA Overview}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://willianjusten.com.br/como-fazer-seu-site-funcionar-offline-com-pwa/}.}
+
+\bibitem[Macedo 2012]{diegomacedoArqApp}
+\abntrefinfo{Macedo}{MACEDO}{2012}
+{MACEDO, D. \emph{Arquitetura de aplicações}. 2012.
+Dispon{\'\i}vel em:
+  \url{https://www.diegomacedo.com.br/arquitetura-de-aplicacoes-em-2-3-4-ou-n-camadas/}.}
 
 \bibitem[Marques 2016]{devmediaAsync2018}
 \abntrefinfo{Marques}{MARQUES}{2016}
@@ -101,12 +125,6 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://www.devmedia.com.br/a-origem-do-css-um-pouco-da-historia/15195}.}
 
-\bibitem[PWA Overview]{pwa2}
-\abntrefinfo{PWA\ldots}{PWA\ldots}{}
-{PWA Overview.
-Dispon{\'\i}vel em:
-  \url{https://willianjusten.com.br/como-fazer-seu-site-funcionar-offline-com-pwa/}.}
-
 \bibitem[Rocha 1999]{rocha99}
 \abntrefinfo{Rocha}{ROCHA}{1999}
 {ROCHA, H. L.~S. da. \emph{{Arquitetura WEB}}. [S.l.]: EP:SF-Rio/D99, 1999.}
@@ -118,16 +136,18 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://medium.com/trainingcenter/microserviços-dos-grandes-monólitos-às-pequenas-rotas-adb70303b6a3}.}
 
-\bibitem[Service Workers]{servicework}
-\abntrefinfo{Service\ldots}{SERVICE\ldots}{}
-{SERVICE Workers.
-Dispon{\'\i}vel em:
-  \url{https://developers.google.com/web/fundamentals/primers/service-workers/}.}
-
 \bibitem[Thoms 2017]{fasthosts2018}
 \abntrefinfo{Thoms}{THOMS}{2017}
 {THOMS, N. \emph{A look back at HTML5}. 2017. FastHosts.
 Dispon{\'\i}vel em:
   \url{https://www.fasthosts.co.uk/blog/websites/look-back-html5}.}
+
+\bibitem[Wilson e Madsen 2010]{memoir}
+\abntrefinfo{Wilson e Madsen}{WILSON; MADSEN}{2010}
+{WILSON, P.; MADSEN, L. \emph{The Memoir Class for Configurable Typesetting -
+  User Guide}.
+Normandy Park, WA, 2010. Dispon{\'\i}vel em:
+  \url{http://mirrors.ctan.org/macros/latex/contrib/memoir/memman.pdf}. Acesso
+  em: 19 dez. 2012.}
 
 \end{thebibliography}

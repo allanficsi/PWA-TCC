@@ -1,11 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.8)  8 SEP 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.10.21)  21 OCT 2019 13:34
 entering extended mode
  restricted \write18 enabled.
+ Source specials enabled.
  %&-line parsing enabled.
 **abntex2-modelo-include-comandos.tex
 (./abntex2-modelo-include-comandos.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 ! Undefined control sequence.
 l.27 \chapter
              {Resultados de comandos}\label{cap_exemplos}
@@ -49,7 +50,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -205,7 +206,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 29--32
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -260,7 +261,7 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no 8 in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 34--36
-[]
+[][]
  []
 
 
@@ -443,7 +444,7 @@ Missing character: There is no | in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 37--40
-[]
+[][]
  []
 
 
@@ -491,7 +492,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 42--45
-[]
+[][]
  []
 
 
@@ -574,7 +575,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 46--48
-[]
+[][]
  []
 
 
@@ -846,7 +847,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 50--55
-[]
+[][]
  []
 
 
@@ -886,7 +887,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 56--57
-[]
+[][]
  []
 
 
@@ -903,12 +904,12 @@ If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 58--58
-[] 
+[][] 
  []
 
 
 Overfull \hbox (78.74931pt too wide) in paragraph at lines 63--63
-[]\OT1/cmtt/m/n/10 \begin{citacao}[] 
+[][]\OT1/cmtt/m/n/10 \begin{citacao}[] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -1196,7 +1197,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 65--69
-[]
+[][]
  []
 
 
@@ -1206,12 +1207,12 @@ Overfull \hbox (36.74968pt too wide) in paragraph at lines 65--69
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 70--70
-[] 
+[][] 
  []
 
 
 Overfull \hbox (125.9989pt too wide) in paragraph at lines 74--74
-[]\OT1/cmtt/m/n/10 \begin{citacao}[english][] 
+[][]\OT1/cmtt/m/n/10 \begin{citacao}[english][] 
  []
 
 
@@ -1244,7 +1245,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 76--77
-[]
+[][]
  []
 
 
@@ -1336,7 +1337,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 78--81
-[]
+[][]
  []
 
 Missing character: There is no C in font nullfont!
@@ -1495,7 +1496,7 @@ Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 82--85
-[]
+[][]
  []
 
 
@@ -1528,7 +1529,7 @@ Missing character: There is no √ in font nullfont!
 Missing character: There is no © in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 87--89
-[]
+[][]
  []
 
 Missing character: There is no A in font nullfont!
@@ -1631,7 +1632,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (11.44446pt too wide) in paragraph at lines 96--96
-[][]\OT1/cmr/m/n/10 As
+[][][]\OT1/cmr/m/n/10 As
  []
 
 
@@ -2129,7 +2130,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
 Overfull \hbox (21.1667pt too wide) in paragraph at lines 99--99
-[][]\OT1/cmr/m/n/10 Caso
+[][][]\OT1/cmr/m/n/10 Caso
  []
 
 
@@ -2380,7 +2381,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
 
 Overfull \hbox (38.63895pt too wide) in paragraph at lines 100--100
-[][]\OT1/cmr/m/n/10 Verifique
+[][][]\OT1/cmr/m/n/10 Verifique
  []
 
 
@@ -2476,7 +2477,7 @@ Overfull \hbox (25.27785pt too wide) in paragraph at lines 100--100
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 90--101
-[]
+[][]
  []
 
 
@@ -2524,7 +2525,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{cap_exemplos}{{}{}}
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 ! Undefined control sequence.
 <write> \newlabel{sec-citacao}{{}{\thepage 
                                            }}
@@ -2565,7 +2565,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 104--106
-[] 
+[][] 
  []
 
 
@@ -2648,7 +2648,7 @@ Missing character: There is no X in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 107--109
-[]
+[][]
  []
 
 
@@ -3042,7 +3042,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 110--129
-[]
+[][]
  []
 
 
@@ -3197,7 +3197,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 130--133
-[]
+[][]
  []
 
 
@@ -3693,7 +3693,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 134--159
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -3714,7 +3714,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 162--164
-[] 
+[][] 
  []
 
 Missing character: There is no F in font nullfont!
@@ -3811,7 +3811,7 @@ you left one out. Proceed, with fingers crossed.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 165--167
-[]
+[][]
  []
 
 
@@ -3879,12 +3879,12 @@ Missing character: There is no ß in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 168--170
-[]
+[][]
  []
 
 
 Overfull \hbox (142.26378pt too wide) in paragraph at lines 198--199
- [] 
+ [][] 
  []
 
 ! Undefined control sequence.
@@ -4128,7 +4128,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 203--222
-[]
+[][]
  []
 
 
@@ -4229,7 +4229,7 @@ Missing character: There is no D in font nullfont!
 Missing character: There is no F in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 223--225
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -4355,7 +4355,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 232--234
-[]
+[][]
  []
 
 
@@ -4517,7 +4517,7 @@ you left one out. Proceed, with fingers crossed.
 
 
 Overfull \hbox (63.72194pt too wide) in paragraph at lines 235--238
-[]\OT1/cmr/m/it/10 Minipages
+[][]\OT1/cmr/m/it/10 Minipages
  []
 
 
@@ -4791,7 +4791,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 239--256
-[]
+[][]
  []
 
 
@@ -4943,7 +4943,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 257--259
-[]
+[][]
  []
 
 
@@ -5599,7 +5599,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 261--272
-[]
+[][]
  []
 
 
@@ -5641,7 +5641,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 274--276
-[]
+[][]
  []
 
 Missing character: There is no U in font nullfont!
@@ -5703,7 +5703,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 277--279
-[]
+[][]
  []
 
 
@@ -5713,7 +5713,7 @@ Overfull \hbox (41.99963pt too wide) in paragraph at lines 277--279
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 280--280
-[] 
+[][] 
  []
 
 
@@ -5794,7 +5794,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 284--286
-[]
+[][]
  []
 
 
@@ -5914,12 +5914,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 287--289
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 290--290
-[][] 
+[][][] 
  []
 
 
@@ -6044,7 +6044,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 297--299
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -6092,7 +6092,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 301--303
-[]
+[][]
  []
 
 Missing character: There is no Q in font nullfont!
@@ -6230,7 +6230,7 @@ Missing character: There is no ] in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 304--307
-[]
+[][]
  []
 
 
@@ -7676,7 +7676,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (15.61102pt too wide) in paragraph at lines 350--352
-\OT1/cmr/m/it/10 Um
+[]\OT1/cmr/m/it/10 Um
  []
 
 
@@ -7763,7 +7763,7 @@ Missing character: There is no ° in font cmti10!
 Missing character: There is no ; in font nullfont!
 
 Overfull \hbox (20.7221pt too wide) in paragraph at lines 356--357
-\OT1/cmr/m/it/10 Uma
+[]\OT1/cmr/m/it/10 Uma
  []
 
 
@@ -7823,7 +7823,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (159.60793pt too wide) in paragraph at lines 357--359
-[]$
+[]$[]$
  []
 
 
@@ -7922,7 +7922,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 365--367
-[]
+[][]
  []
 
 Missing character: There is no O in font nullfont!
@@ -8010,17 +8010,17 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 368--370
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 371--371
-[] 
+[][] 
  []
 
 
 Overfull \hbox (167.99854pt too wide) in paragraph at lines 373--373
-[]   \OT1/cmtt/m/n/10 \setlength{\parindent}{1.3cm}[] 
+[][]   \OT1/cmtt/m/n/10 \setlength{\parindent}{1.3cm}[] 
  []
 
 Missing character: There is no P in font nullfont!
@@ -8277,7 +8277,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 375--380
-[]
+[][]
  []
 
 
@@ -8297,7 +8297,7 @@ Overfull \hbox (16.22224pt too wide) in paragraph at lines 375--380
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 381--381
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -8308,8 +8308,8 @@ Missing character: There is no √ in font cmtt10!
 Missing character: There is no £ in font cmtt10!
 
 Overfull \hbox (393.74657pt too wide) in paragraph at lines 383--383
-[]   \OT1/cmtt/m/n/10 \usepackage{indentfirst}      % Indenta o primeiro pargra
-fo de cada seo.[] 
+[][]   \OT1/cmtt/m/n/10 \usepackage{indentfirst}      % Indenta o primeiro parg
+rafo de cada seo.[] 
  []
 
 Missing character: There is no O in font nullfont!
@@ -8384,20 +8384,20 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 385--387
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 388--388
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
 Missing character: There is no © in font cmtt10!
 
 Overfull \hbox (299.24739pt too wide) in paragraph at lines 390--390
-[]  \OT1/cmtt/m/n/10 \setlength{\parskip}{0.2cm}  % tente tambm \onelineskip[] 
-
+[][]  \OT1/cmtt/m/n/10 \setlength{\parskip}{0.2cm}  % tente tambm \onelineskip[
+] 
  []
 
 Missing character: There is no O in font nullfont!
@@ -8450,12 +8450,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 392--394
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 395--395
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -8464,7 +8464,8 @@ Missing character: There is no √ in font cmtt10!
 Missing character: There is no £ in font cmtt10!
 
 Overfull \hbox (288.74748pt too wide) in paragraph at lines 399--399
-[]  \OT1/cmtt/m/n/10 \OnehalfSpacing       % espaamento um e meio (padro);[] 
+[][]  \OT1/cmtt/m/n/10 \OnehalfSpacing       % espaamento um e meio (padro);[] 
+
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -8529,17 +8530,17 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 401--402
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 403--403
-[] 
+[][] 
  []
 
 
 Overfull \hbox (220.49808pt too wide) in paragraph at lines 410--410
-[]  \OT1/cmtt/m/n/10 \begin{SingleSpace} ...\end{SingleSpace}[] 
+[][]  \OT1/cmtt/m/n/10 \begin{SingleSpace} ...\end{SingleSpace}[] 
  []
 
 
@@ -8628,7 +8629,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 412--413
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -8667,7 +8668,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 415--417
-[]
+[][]
  []
 
 Missing character: There is no √ in font nullfont!
@@ -8921,20 +8922,20 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 418--423
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 424--424
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
 Missing character: There is no £ in font cmtt10!
 
 Overfull \hbox (330.74712pt too wide) in paragraph at lines 426--426
-[]   \OT1/cmtt/m/n/10 \include{documento-a-ser-incluido}      % sem a extenso .
-tex[] 
+[][]   \OT1/cmtt/m/n/10 \include{documento-a-ser-incluido}      % sem a extenso
+ .tex[] 
  []
 
 Missing character: There is no P in font nullfont!
@@ -8988,20 +8989,20 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 428--429
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 430--430
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
 Missing character: There is no £ in font cmtt10!
 
 Overfull \hbox (320.24721pt too wide) in paragraph at lines 432--432
-[]   \OT1/cmtt/m/n/10 \input{documento-a-ser-incluido}      % sem a extenso .te
-x[] 
+[][]   \OT1/cmtt/m/n/10 \input{documento-a-ser-incluido}      % sem a extenso .
+tex[] 
  []
 
 ! Undefined control sequence.
@@ -9038,7 +9039,7 @@ Missing character: There is no E in font nullfont!
 Missing character: There is no X in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 435--437
-[]
+[][]
  []
 
 
@@ -9120,7 +9121,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (137.66696pt too wide) in paragraph at lines 439--439
-[][]\OT1/cmr/m/n/10 http://texlipse.sourceforge.net/| 
+[][][]\OT1/cmr/m/n/10 http://texlipse.sourceforge.net/| 
  []
 
 Missing character: There is no , in font nullfont!
@@ -9168,7 +9169,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (164.19485pt too wide) in paragraph at lines 440--440
-[][]\OT1/cmr/m/n/10 http://www.xm1math.net/texmaker/| 
+[][][]\OT1/cmr/m/n/10 http://www.xm1math.net/texmaker/| 
  []
 
 Missing character: There is no , in font nullfont!
@@ -9266,7 +9267,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 438--443
-[]
+[][]
  []
 
 
@@ -9406,7 +9407,7 @@ Missing character: There is no x in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 444--447
-[]
+[][]
  []
 
 
@@ -9456,12 +9457,12 @@ Overfull \hbox (13.28882pt too wide) in paragraph at lines 444--447
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 448--448
-[] 
+[][] 
  []
 
 
 Overfull \hbox (173.24849pt too wide) in paragraph at lines 455--455
-[]   \OT1/cmtt/m/n/10 pdflatex ARQUIVO_PRINCIPAL.tex[] 
+[][]   \OT1/cmtt/m/n/10 pdflatex ARQUIVO_PRINCIPAL.tex[] 
  []
 
 
@@ -9519,7 +9520,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 458--460
-[]
+[][]
  []
 
 Missing character: There is no A in font nullfont!
@@ -9711,7 +9712,7 @@ LaTeX Warning: Reference `cap_exemplos' on page  undefined on input line 467.
 
 
 Overfull \hbox (7.7778pt too wide) in paragraph at lines 467--467
-[][]\OT1/cmr/m/n/10 O
+[][][]\OT1/cmr/m/n/10 O
  []
 
 
@@ -9925,7 +9926,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 461--473
-[]
+[][]
  []
 
 
@@ -9936,8 +9937,8 @@ erfeitaquandoindicamoso[]; quetemonome[]$
 
 
 Overfull \hbox (393.74657pt too wide) in paragraph at lines 483--483
-[]\OT1/cmtt/m/n/10 Ao nomear a \autoref{tab-nivinv} e a \autoref{fig_circulo}, 
-apresentamos um[] 
+[][]\OT1/cmtt/m/n/10 Ao nomear a \autoref{tab-nivinv} e a \autoref{fig_circulo}
+, apresentamos um[] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -10133,7 +10134,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 486--488
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -10249,7 +10250,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 489--491
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -10294,7 +10295,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 492--493
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -10465,7 +10466,7 @@ Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 494--497
-[]
+[][]
  []
 
 
@@ -10523,7 +10524,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 498--500
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -10551,7 +10552,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 501--502
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -10599,7 +10600,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 503--504
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -10629,7 +10630,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 505--506
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -10674,7 +10675,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 507--508
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -10699,7 +10700,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 509--510
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -10747,7 +10748,7 @@ Missing character: There is no £ in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 511--512
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -10808,7 +10809,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 513--514
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -10855,7 +10856,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 516--517
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -10925,12 +10926,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 518--519
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 520--520
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -10941,7 +10942,7 @@ Missing character: There is no √ in font cmtt10!
 Missing character: There is no £ in font cmtt10!
 
 Overfull \hbox (230.99799pt too wide) in paragraph at lines 523--523
-[]\OT1/cmtt/m/n/10 \subsubsubsection{Esta  uma subseo de quinto[] 
+[][]\OT1/cmtt/m/n/10 \subsubsubsection{Esta  uma subseo de quinto[] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -10997,7 +10998,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 525--526
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -11035,7 +11036,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 527--528
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -11075,7 +11076,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 530--531
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -11153,12 +11154,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 532--534
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 535--535
-[] 
+[][] 
  []
 
 Missing character: There is no √ in font cmtt10!
@@ -11167,8 +11168,8 @@ Missing character: There is no √ in font cmtt10!
 Missing character: There is no ° in font cmtt10!
 
 Overfull \hbox (346.49698pt too wide) in paragraph at lines 537--537
-[]\OT1/cmtt/m/n/10 \paragraph{Este  um pargrafo nomeado}\label{sec-exemplo-para
-grafo}[] 
+[][]\OT1/cmtt/m/n/10 \paragraph{Este  um pargrafo nomeado}\label{sec-exemplo-pa
+ragrafo}[] 
  []
 
 Missing character: There is no A in font nullfont!
@@ -11244,7 +11245,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 539--540
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -11287,7 +11288,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 541--542
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -11321,7 +11322,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 543--544
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -11477,7 +11478,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 546--550
-[]
+[][]
  []
 
 Missing character: There is no I in font nullfont!
@@ -11586,7 +11587,7 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 551--553
-[]
+[][]
  []
 
 ! Undefined control sequence.
@@ -11632,7 +11633,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 555--558
-[]
+[][]
  []
 
 Missing character: There is no P in font nullfont!
@@ -11820,17 +11821,17 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 559--562
-[]
+[][]
  []
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 563--563
-[] 
+[][] 
  []
 
 
 Overfull \hbox (78.74931pt too wide) in paragraph at lines 574--574
-[]\OT1/cmtt/m/n/10 \documentclass[[] 
+[][]\OT1/cmtt/m/n/10 \documentclass[[] 
  []
 
 
@@ -12252,7 +12253,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 576--582
-[]
+[][]
  []
 
 
@@ -12282,12 +12283,12 @@ Overfull \hbox (31.49973pt too wide) in paragraph at lines 576--582
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 583--583
-[] 
+[][] 
  []
 
 
 Overfull \hbox (78.74931pt too wide) in paragraph at lines 593--593
-[]\OT1/cmtt/m/n/10 \documentclass[[] 
+[][]\OT1/cmtt/m/n/10 \documentclass[[] 
  []
 
 
@@ -12445,7 +12446,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 595--597
-[]
+[][]
  []
 
 Missing character: There is no E in font nullfont!
@@ -12516,7 +12517,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (35.44455pt too wide) in paragraph at lines 599--599
-[][]\OT1/cmr/m/n/10 Extrado
+[][][]\OT1/cmr/m/n/10 Extrado
  []
 
 
@@ -12532,7 +12533,7 @@ Overfull \hbox (253.02841pt too wide) in paragraph at lines 599--599
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 598--600
-[]
+[][]
  []
 
 
@@ -12607,7 +12608,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 601--611
-[]
+[][]
  []
 
 
@@ -13324,7 +13325,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (35.44455pt too wide) in paragraph at lines 613--613
-[][]\OT1/cmr/m/n/10 Extrado
+[][][]\OT1/cmr/m/n/10 Extrado
  []
 
 
@@ -13405,7 +13406,7 @@ Overfull \hbox (41.38896pt too wide) in paragraph at lines 613--613
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 612--614
-[]
+[][]
  []
 
 
@@ -13414,69 +13415,15 @@ Overfull \hbox (4.48613pt too wide) in paragraph at lines 612--614
  []
 
 
-Package babel Warning: Unknown language `french'. Either you have
-(babel)                misspelled its name, it has not been installed,
-(babel)                or you requested it in a previous run. Fix its name,
-(babel)                install it or just rerun the file, respectively.
-(babel)                I'll proceed, but expect wrong results.
-(babel)                Reported on input line 615.
+! Package babel Error: You haven't defined the language french yet.
 
-! Undefined control sequence.
-\bbl@switch ... {afterreset}{}\languageshorthands 
-                                                  {none}\ifcase \bbl@select@...
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.615 \begin{otherlanguage*}{french}
                                     
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no n in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-! Undefined control sequence.
-\bbl@switch ...xtras}{}\ifcase \bbl@opt@hyphenmap 
-                                                  \or \def \BabelLower ##1##...
-l.615 \begin{otherlanguage*}{french}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.615 \begin{otherlanguage*}{french}
-                                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\bbl@switch ...l@patterns {#1}\babel@savevariable 
-                                                  \lefthyphenmin \babel@save...
-l.615 \begin{otherlanguage*}{french}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\bbl@switch ...\lefthyphenmin \babel@savevariable 
-                                                  \righthyphenmin \expandaft...
-l.615 \begin{otherlanguage*}{french}
-                                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Your command will be ignored, type <return> to proceed
 
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ß in font cmti10!
@@ -13511,617 +13458,592 @@ Missing character: There is no © in font cmti10!
 Missing character: There is no √ in font cmti10!
 Missing character: There is no † in font cmti10!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 615--625
-[]
+Overfull \hbox (43.54982pt too wide) in paragraph at lines 623--625
+[][]\OT1/cmr/m/it/10 Texte
  []
 
 
-Overfull \hbox (23.54982pt too wide) in paragraph at lines 615--625
-[]\OT1/cmr/m/it/10 Texte
- []
-
-
-Overfull \hbox (10.22215pt too wide) in paragraph at lines 615--625
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 en
  []
 
 
-Overfull \hbox (15.46098pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 fra-
+Overfull \hbox (32.83868pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 franais.
  []
 
 
-Overfull \hbox (20.95544pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 nais.
- []
-
-
-Overfull \hbox (15.98325pt too wide) in paragraph at lines 615--625
+Overfull \hbox (15.98325pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 Pas
  []
 
 
-Overfull \hbox (22.23317pt too wide) in paragraph at lines 615--625
+Overfull \hbox (22.23317pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 ques-
  []
 
 
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 615--625
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 tion
  []
 
 
-Overfull \hbox (14.56656pt too wide) in paragraph at lines 615--625
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 que
  []
 
 
-Overfull \hbox (23.7665pt too wide) in paragraph at lines 615--625
+Overfull \hbox (23.7665pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 Twit-
  []
 
 
-Overfull \hbox (12.13878pt too wide) in paragraph at lines 615--625
+Overfull \hbox (12.13878pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 ter
  []
 
 
-Overfull \hbox (10.22215pt too wide) in paragraph at lines 615--625
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 ne
  []
 
 
-Overfull \hbox (28.11092pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 vienne
- []
-
-
-Overfull \hbox (19.54985pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 faire
- []
-
-
-Overfull \hbox (15.58879pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 une
- []
-
-
-Overfull \hbox (32.58308pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 concur-
- []
-
-
-Overfull \hbox (22.61646pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 rence
- []
-
-
-Overfull \hbox (29.89981pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dloyale
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 la
- []
-
-
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tra-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (20.69986pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tion-
- []
-
-
-Overfull \hbox (20.4443pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 nelle
- []
-
-
-Overfull \hbox (21.21098pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 fume
- []
-
-
-Overfull \hbox (32.19978pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 blanche
- []
-
-
-Overfull \hbox (13.03325pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 qui
- []
-
-
-Overfull \hbox (31.56088pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 marque
- []
-
-
-Overfull \hbox (33.98865pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 l'lection
- []
-
-
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 d'un
- []
-
-
-Overfull \hbox (19.67766pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 nou-
- []
-
-
-Overfull \hbox (19.16652pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 veau
- []
-
-
-Overfull \hbox (21.97762pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pape.
- []
-
-
-Overfull \hbox (21.47765pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Pour
- []
-
-
-Overfull \hbox (11.24435pt too wide) in paragraph at lines 615--625
+Overfull \hbox (11.24435pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 vi-
  []
 
 
-Overfull \hbox (12.13878pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ter
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 enne
  []
 
 
-Overfull \hbox (21.72206pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 toute
+Overfull \hbox (19.54985pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 faire
  []
 
 
-Overfull \hbox (19.42209pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 fuite
+Overfull \hbox (15.58879pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 une
  []
 
 
-Overfull \hbox (12.90546pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pr-
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 con-
  []
 
 
-Overfull \hbox (20.44424pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 coce,
+Overfull \hbox (17.76097pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 cur-
  []
 
 
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 le
+Overfull \hbox (22.61646pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 rence
  []
 
 
-Overfull \hbox (15.35545pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Va-
+Overfull \hbox (29.89981pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dloyale
  []
 
 
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (14.82211pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 can
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 a
- []
-
-
-Overfull \hbox (20.44432pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 donc
- []
-
-
-Overfull \hbox (16.48323pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pris
- []
-
-
-Overfull \hbox (10.98883pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 un
- []
-
-
-Overfull \hbox (14.56656pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 peu
- []
-
-
-Overfull \hbox (40.3775pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 d'avance,
- []
-
-
-Overfull \hbox (7.92215pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 et
- []
-
-
-Overfull \hbox (5.11108pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 a
- []
-
-
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dj
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ter-
- []
-
-
-Overfull \hbox (11.49992pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dit
- []
-
-
-Overfull \hbox (15.1166pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 aux
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 car-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (20.73878pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 naux
- []
-
-
-Overfull \hbox (13.03325pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 qui
- []
-
-
-Overfull \hbox (22.61649pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pren-
- []
-
-
-Overfull \hbox (22.87206pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dront
- []
-
-
-Overfull \hbox (17.24986pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 part
- []
-
-
-Overfull \hbox (10.47772pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 au
- []
-
-
-Overfull \hbox (17.6332pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 vote
- []
-
-
-Overfull \hbox (38.46086pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 d'utiliser
- []
-
-
-Overfull \hbox (7.1555pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 le
- []
-
-
-Overfull \hbox (22.87206pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 rseau
- []
-
-
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 so-
- []
-
-
-Overfull \hbox (18.39989pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 cial,
- []
-
-
-Overfull \hbox (12.26657pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 se-
- []
-
-
-Overfull \hbox (13.28882pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 lon
- []
-
-
-Overfull \hbox (15.84433pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Ca-
- []
-
-
-Overfull \hbox (17.1221pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tho-
- []
-
-
-Overfull \hbox (10.22215pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 lic
- []
-
-
-Overfull \hbox (22.76653pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 News
- []
-
-
-Overfull \hbox (18.01653pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Ser-
- []
-
-
-Overfull \hbox (19.42206pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 vice.
- []
-
-
-Overfull \hbox (17.65544pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Une
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 me-
- []
-
-
-Overfull \hbox (17.76097pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 sure
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 va-
- []
-
-
-Overfull \hbox (19.42209pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 lable
- []
-
-
-Overfull \hbox (17.24988pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 sur-
- []
-
-
-Overfull \hbox (17.1221pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tout
- []
-
-
-Overfull \hbox (19.29431pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pour
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 les
- []
-
-
-Overfull \hbox (18.65544pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 neuf
- []
-
-
-Overfull \hbox (16.9943pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 car-
- []
-
-
-Overfull \hbox (11.75548pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 di-
- []
-
-
-Overfull \hbox (20.73878pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 naux
- []
-
-
-Overfull \hbox (13.67213pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 sur
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 les
- []
-
-
-Overfull \hbox (15.33325pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 117
- []
-
-
-Overfull \hbox (10.47772pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 du
- []
-
-
-Overfull \hbox (36.28862pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 conclave
- []
-
-
-Overfull \hbox (17.50542pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pra-
- []
-
-
-Overfull \hbox (9.96658pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ti-
- []
-
-
-Overfull \hbox (28.11093pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 quants
- []
-
-
-Overfull \hbox (11.62769pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 trs
- []
-
-
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ac-
- []
-
-
-Overfull \hbox (13.54436pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tifs
- []
-
-
-Overfull \hbox (9.71104pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 de
- []
-
-
-Overfull \hbox (23.7665pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 Twit-
- []
-
-
-Overfull \hbox (15.20543pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ter,
- []
-
-
-Overfull \hbox (13.03325pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 qui
- []
-
-
-Overfull \hbox (14.05547pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 au-
- []
-
-
-Overfull \hbox (17.76097pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ront
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 in-
- []
-
-
-Overfull \hbox (15.71652pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ter-
- []
-
-
-Overfull \hbox (16.35544pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dic-
- []
-
-
-Overfull \hbox (17.12212pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 tion
- []
-
-
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 pen-
- []
-
-
-Overfull \hbox (19.16655pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 dant
- []
-
-
-Overfull \hbox (21.72206pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 toute
- []
-
-
-Overfull \hbox (7.66663pt too wide) in paragraph at lines 615--625
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 la
  []
 
 
-Overfull \hbox (26.70537pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 priode
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 tra-
  []
 
 
-Overfull \hbox (9.71104pt too wide) in paragraph at lines 615--625
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 di-
+ []
+
+
+Overfull \hbox (20.69986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 tion-
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 nelle
+ []
+
+
+Overfull \hbox (21.21098pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 fume
+ []
+
+
+Overfull \hbox (32.19978pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 blanche
+ []
+
+
+Overfull \hbox (13.03325pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 qui
+ []
+
+
+Overfull \hbox (21.08319pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 mar-
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 que
+ []
+
+
+Overfull \hbox (33.98865pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 l'lection
+ []
+
+
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 d'un
+ []
+
+
+Overfull \hbox (19.67766pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 nou-
+ []
+
+
+Overfull \hbox (19.16652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 veau
+ []
+
+
+Overfull \hbox (21.97762pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pape.
+ []
+
+
+Overfull \hbox (21.47765pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Pour
+ []
+
+
+Overfull \hbox (19.80539pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 viter
+ []
+
+
+Overfull \hbox (21.72206pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 toute
+ []
+
+
+Overfull \hbox (19.42209pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 fuite
+ []
+
+
+Overfull \hbox (29.77196pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 prcoce,
+ []
+
+
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 le
+ []
+
+
+Overfull \hbox (18.67764pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Vat-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (14.82211pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 can
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 donc
+ []
+
+
+Overfull \hbox (16.48323pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pris
+ []
+
+
+Overfull \hbox (10.98883pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 un
+ []
+
+
+Overfull \hbox (14.56656pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 peu
+ []
+
+
+Overfull \hbox (40.3775pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 d'avance,
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dj
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (11.49992pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dit
+ []
+
+
+Overfull \hbox (15.1166pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 aux
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 car-
+ []
+
+
+Overfull \hbox (28.91652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dinaux
+ []
+
+
+Overfull \hbox (13.03325pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 qui
+ []
+
+
+Overfull \hbox (22.61649pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pren-
+ []
+
+
+Overfull \hbox (22.87206pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dront
+ []
+
+
+Overfull \hbox (17.24986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 part
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 au
+ []
+
+
+Overfull \hbox (17.6332pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 vote
+ []
+
+
+Overfull \hbox (38.46086pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 d'utiliser
+ []
+
+
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 le
+ []
+
+
+Overfull \hbox (22.87206pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 rseau
+ []
+
+
+Overfull \hbox (12.7777pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 so-
+ []
+
+
+Overfull \hbox (18.39989pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 cial,
+ []
+
+
+Overfull \hbox (21.97765pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 selon
+ []
+
+
+Overfull \hbox (36.0331pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Catholic
+ []
+
+
+Overfull \hbox (22.76653pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 News
+ []
+
+
+Overfull \hbox (18.01653pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Ser-
+ []
+
+
+Overfull \hbox (19.42206pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 vice.
+ []
+
+
+Overfull \hbox (17.65544pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Une
+ []
+
+
+Overfull \hbox (30.53867pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 mesure
+ []
+
+
+Overfull \hbox (15.84433pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 val-
+ []
+
+
+Overfull \hbox (16.86655pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 able
+ []
+
+
+Overfull \hbox (30.79424pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 surtout
+ []
+
+
+Overfull \hbox (19.29431pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pour
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 les
+ []
+
+
+Overfull \hbox (18.65544pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 neuf
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 car-
+ []
+
+
+Overfull \hbox (28.91652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dinaux
+ []
+
+
+Overfull \hbox (13.67213pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 sur
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 les
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 117
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 du
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (21.4665pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 clave
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pra-
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ti-
+ []
+
+
+Overfull \hbox (28.11093pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 quants
+ []
+
+
+Overfull \hbox (11.62769pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 trs
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ac-
+ []
+
+
+Overfull \hbox (6.89993pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 t-
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ifs
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 de
  []
 
 
-Overfull \hbox (8.68883pt too wide) in paragraph at lines 615--625
+Overfull \hbox (23.7665pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 Twit-
+ []
+
+
+Overfull \hbox (15.20543pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ter,
+ []
+
+
+Overfull \hbox (13.03325pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 qui
+ []
+
+
+Overfull \hbox (14.05547pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 au-
+ []
+
+
+Overfull \hbox (17.76097pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ront
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (15.71652pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ter-
+ []
+
+
+Overfull \hbox (16.35544pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dic-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pen-
+ []
+
+
+Overfull \hbox (19.16655pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 dant
+ []
+
+
+Overfull \hbox (21.72206pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 toute
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (15.9721pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 pri-
+ []
+
+
+Overfull \hbox (14.311pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 ode
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (8.68883pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 se
  []
 
 
-Overfull \hbox (32.71085pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 connec-
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 con-
  []
 
 
-Overfull \hbox (12.13878pt too wide) in paragraph at lines 615--625
-\OT1/cmr/m/it/10 ter
+Overfull \hbox (26.44977pt too wide) in paragraph at lines 623--625
+\OT1/cmr/m/it/10 necter
  []
 
 
-Overfull \hbox (16.73877pt too wide) in paragraph at lines 615--625
+Overfull \hbox (16.73877pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 leur
  []
 
 
-Overfull \hbox (33.47754pt too wide) in paragraph at lines 615--625
+Overfull \hbox (33.47754pt too wide) in paragraph at lines 623--625
 \OT1/cmr/m/it/10 compte.
  []
 
@@ -14233,7 +14155,7 @@ you left one out. Proceed, with fingers crossed.
 
 
 Overfull \hbox (35.44455pt too wide) in paragraph at lines 627--628
-[][]\OT1/cmr/m/n/10 Extrado
+[][][]\OT1/cmr/m/n/10 Extrado
  []
 
 
@@ -14248,65 +14170,15 @@ idad/1361102009$[]13423\OML/cmm/m/it/10 :html| \OT1/cmr/m/n/10 :$
  []
 
 
-Package babel Warning: Unknown language `spanish'. Either you have
-(babel)                misspelled its name, it has not been installed,
-(babel)                or you requested it in a previous run. Fix its name,
-(babel)                install it or just rerun the file, respectively.
-(babel)                I'll proceed, but expect wrong results.
-(babel)                Reported on input line 631.
+! Package babel Error: You haven't defined the language spanish yet.
 
-! Undefined control sequence.
-\bbl@switch ... {afterreset}{}\languageshorthands 
-                                                  {none}\ifcase \bbl@select@...
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.631 centra en la cr√≠tica al materialismo}}
                                              .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\bbl@switch ...xtras}{}\ifcase \bbl@opt@hyphenmap 
-                                                  \or \def \BabelLower ##1##...
-l.631 centra en la cr√≠tica al materialismo}}
-                                             .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.631 centra en la cr√≠tica al materialismo}}
-                                             .
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\bbl@switch ...l@patterns {#1}\babel@savevariable 
-                                                  \lefthyphenmin \babel@save...
-l.631 centra en la cr√≠tica al materialismo}}
-                                             .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\bbl@switch ...\lefthyphenmin \babel@savevariable 
-                                                  \righthyphenmin \expandaft...
-l.631 centra en la cr√≠tica al materialismo}}
-                                             .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Your command will be ignored, type <return> to proceed
 
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≠ in font cmti10!
@@ -14317,8 +14189,8 @@ Missing character: There is no ° in font cmti10!
 Missing character: There is no √ in font cmti10!
 Missing character: There is no ≠ in font cmti10!
 
-Overfull \hbox (55.70532pt too wide) in paragraph at lines 631--632
-[]\OT1/cmr/m/n/10 none[]\OT1/cmr/m/it/10 Decenas
+Overfull \hbox (35.14972pt too wide) in paragraph at lines 631--632
+[][]\OT1/cmr/m/it/10 Decenas
  []
 
 
@@ -14327,13 +14199,8 @@ Overfull \hbox (9.71104pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (14.82213pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 mi-
- []
-
-
-Overfull \hbox (11.24437pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 les
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 miles
  []
 
 
@@ -14347,13 +14214,8 @@ Overfull \hbox (16.9943pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (12.7777pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 so-
- []
-
-
-Overfull \hbox (14.82214pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 nas
+Overfull \hbox (24.0221pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 sonas
  []
 
 
@@ -14407,13 +14269,8 @@ Overfull \hbox (19.67766pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (18.39986pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 nge-
- []
-
-
-Overfull \hbox (12.01105pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 lus
+Overfull \hbox (26.83316pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 ngelus
  []
 
 
@@ -14422,13 +14279,8 @@ Overfull \hbox (13.79991pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (14.82213pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 mi-
- []
-
-
-Overfull \hbox (12.26659pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 ni-
+Overfull \hbox (23.51097pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 mini-
  []
 
 
@@ -14442,13 +14294,8 @@ Overfull \hbox (7.1555pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 pri-
- []
-
-
-Overfull \hbox (21.59428pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 mero
+Overfull \hbox (33.98865pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 primero
  []
 
 
@@ -14467,8 +14314,13 @@ Overfull \hbox (25.29985pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (21.46652pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 ciase
+Overfull \hbox (11.24435pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 ci-
+ []
+
+
+Overfull \hbox (13.79991pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 ase
  []
 
 
@@ -14527,8 +14379,13 @@ Overfull \hbox (7.66663pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (24.40535pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 crtica
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 cr-
+ []
+
+
+Overfull \hbox (15.58876pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 tica
  []
 
 
@@ -14547,18 +14404,23 @@ Overfull \hbox (11.4999pt too wide) in paragraph at lines 631--632
  []
 
 
-Overfull \hbox (15.9721pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 ria-
+Overfull \hbox (10.86102pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 ri-
  []
 
 
-Overfull \hbox (26.40889pt too wide) in paragraph at lines 631--632
-\OT1/cmr/m/it/10 lismo[]\OT1/cmr/m/n/10 . 
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 al-
+ []
+
+
+Overfull \hbox (23.85335pt too wide) in paragraph at lines 631--632
+\OT1/cmr/m/it/10 ismo\OT1/cmr/m/n/10 . 
  []
 
 
 Overfull \hbox (7.7778pt too wide) in paragraph at lines 633--634
-[]\OT1/cmr/m/n/10 O
+[][]\OT1/cmr/m/n/10 O
  []
 
 
@@ -14643,7 +14505,7 @@ Overfull \hbox (38.11118pt too wide) in paragraph at lines 633--634
 
 
 Overfull \hbox (136.49881pt too wide) in paragraph at lines 637--637
-[]  \OT1/cmtt/m/n/10 \selectlanguage{english}[] 
+[][]  \OT1/cmtt/m/n/10 \selectlanguage{english}[] 
  []
 
 Missing character: There is no √ in font cmr10!
@@ -14688,7 +14550,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (16.50002pt too wide) in paragraph at lines 639--643
-[]\OT1/cmr/m/n/10 Isso
+[][]\OT1/cmr/m/n/10 Isso
  []
 
 
@@ -15023,7 +14885,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no £ in font cmr10!
 
 Overfull \hbox (7.50002pt too wide) in paragraph at lines 644--646
-[]\OT1/cmr/m/n/10 A
+[][]\OT1/cmr/m/n/10 A
  []
 
 
@@ -15162,7 +15024,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (38.38896pt too wide) in paragraph at lines 648--650
-[]\OT1/cmr/m/n/10 Consulte
+[][]\OT1/cmr/m/n/10 Consulte
  []
 
 
@@ -15226,7 +15088,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
 
 Overfull \hbox (38.38896pt too wide) in paragraph at lines 651--653
-[]\OT1/cmr/m/n/10 Consulte
+[][]\OT1/cmr/m/n/10 Consulte
  []
 
 
@@ -15395,7 +15257,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no £ in font cmr10!
 
 Overfull \hbox (18.61116pt too wide) in paragraph at lines 654--659
-[]\OT1/cmr/m/n/10 Alm
+[][]\OT1/cmr/m/n/10 Alm
  []
 
 
@@ -15823,7 +15685,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
 Overfull \hbox (44.9445pt too wide) in paragraph at lines 661--663
-[]\OT1/cmr/m/n/10 Referncias
+[][]\OT1/cmr/m/n/10 Referncias
  []
 
 
@@ -15898,7 +15760,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
 Overfull \hbox (7.50002pt too wide) in paragraph at lines 664--668
-[]\OT1/cmr/m/n/10 A
+[][]\OT1/cmr/m/n/10 A
  []
 
 
@@ -16220,7 +16082,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
 Overfull \hbox (41.11119pt too wide) in paragraph at lines 670--672
-[]\OT1/cmr/m/n/10 Acentuao
+[][]\OT1/cmr/m/n/10 Acentuao
  []
 
 
@@ -16315,7 +16177,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ∫ in font cmr10!
 
 Overfull \hbox (58.9168pt too wide) in paragraph at lines 673--680
-[]\OT1/cmr/m/n/10 Normalmente
+[][]\OT1/cmr/m/n/10 Normalmente
  []
 
 
@@ -16956,7 +16818,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no £ in font cmr10!
 
 Overfull \hbox (25.8334pt too wide) in paragraph at lines 681--684
-[]\OT1/cmr/m/n/10 [htbp]
+[][]\OT1/cmr/m/n/10 [htbp]
  []
 
 
@@ -17006,7 +16868,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ß in font cmr10!
 
 Overfull \hbox (81.97188pt too wide) in paragraph at lines 686--693
- [] 
+ [][] 
  []
 
 
@@ -17033,7 +16895,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (31.33337pt too wide) in paragraph at lines 698--700
-[]\OT1/cmr/m/n/10 Precisa
+[][]\OT1/cmr/m/n/10 Precisa
  []
 
 
@@ -17066,7 +16928,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (38.38896pt too wide) in paragraph at lines 701--703
-[]\OT1/cmr/m/n/10 Consulte
+[][]\OT1/cmr/m/n/10 Consulte
  []
 
 
@@ -17171,7 +17033,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ° in font cmr10!
 
 Overfull \hbox (38.97227pt too wide) in paragraph at lines 704--707
-[]\OT1/cmr/m/n/10 Inscreva-
+[][]\OT1/cmr/m/n/10 Inscreva-
  []
 
 
@@ -17299,7 +17161,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no † in font cmr10!
 
 Overfull \hbox (39.61119pt too wide) in paragraph at lines 708--711
-[]\OT1/cmr/m/n/10 Participe
+[][]\OT1/cmr/m/n/10 Participe
  []
 
 
@@ -17410,7 +17272,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
 Overfull \hbox (16.38892pt too wide) in paragraph at lines 713--715
-[]\OT1/cmr/m/n/10 Voc
+[][]\OT1/cmr/m/n/10 Voc
  []
 
 
@@ -17462,7 +17324,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (16.11116pt too wide) in paragraph at lines 716--719
-[]\OT1/cmr/m/n/10 Sua
+[][]\OT1/cmr/m/n/10 Sua
  []
 
 
@@ -17659,7 +17521,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no £ in font cmr10!
 
 Overfull \hbox (21.69449pt too wide) in paragraph at lines 721--724
-[]\OT1/cmr/m/n/10 Quer
+[][]\OT1/cmr/m/n/10 Quer
  []
 
 
@@ -17767,7 +17629,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (19.1667pt too wide) in paragraph at lines 725--727
-[]\OT1/cmr/m/n/10 Veja
+[][]\OT1/cmr/m/n/10 Veja
  []
 
 
@@ -17808,11 +17670,11 @@ Overfull \hbox (262.36176pt too wide) in paragraph at lines 725--727
 
  
 Here is how much of TeX's memory you used:
- 55 strings out of 492982
- 779 string characters out of 6134897
- 108538 words of memory out of 5000000
- 3715 multiletter control sequences out of 15000+600000
+ 50 strings out of 494924
+ 703 string characters out of 6180767
+ 110414 words of memory out of 5000000
+ 3461 multiletter control sequences out of 15000+600000
  4767 words of font info for 18 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  20i,9n,26p,193b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+Output written on abntex2-modelo-include-comandos.dvi (3 pages, 2704 bytes).
