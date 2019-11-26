@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Barros 2015]{android}
+\abntrefinfo{Barros}{BARROS}{2015}
+{BARROS, T. \emph{Android}. 2015.
+Dispon{\'\i}vel em: \url{https://www.techtudo.com.br/tudo-sobre/android.html}.}
+
 \bibitem[CanalTech 2017]{canaltechFlashFim2018}
 \abntrefinfo{CanalTech}{CANALTECH}{2017}
 {CANALTECH. \emph{Adobe anuncia o fim do Flash para 2020}. 2017. CanalTech.
@@ -50,11 +55,22 @@ Dispon{\'\i}vel em:
 Dispon{\'\i}vel em:
   \url{https://martinfowler.com/articles/microservices.html}.}
 
+\bibitem[Garcia 2019]{ios}
+\abntrefinfo{Garcia}{GARCIA}{2019}
+{GARCIA, R. \emph{IOS}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.apptuts.com.br/tutorial/ipad/o-que-e-ios/}.}
+
 \bibitem[Googe Developers 2019]{servicework}
-\abntrefinfo{Googe Developers}{GOOGE DEVELOPERS}{2019}
+\abntrefinfo{Googe Developers}{GOOGE DEVELOPERS}{2019a}
 {GOOGE DEVELOPERS. \emph{Service Workers}. 2019.
 Dispon{\'\i}vel em:
   \url{https://developers.google.com/web/fundamentals/primers/service-workers/}.}
+
+\bibitem[Googe Developers 2019]{workbox}
+\abntrefinfo{Googe Developers}{GOOGE DEVELOPERS}{2019b}
+{GOOGE DEVELOPERS. \emph{Workbox}. 2019.
+Dispon{\'\i}vel em: \url{https://developers.google.com/web/tools/workbox}.}
 
 \bibitem[Google Developers 2019]{manifest}
 \abntrefinfo{Google Developers}{GOOGLE DEVELOPERS}{2019a}
@@ -79,6 +95,12 @@ Dispon{\'\i}vel em:
 {JOMENDEZ. \emph{PWA Add Home Screen}. 2018.
 Dispon{\'\i}vel em:
   \url{http://www.jomendez.com/2018/06/05/add-home-screen-pwas/}.}
+
+\bibitem[Jordao 2009]{historia_mobile2}
+\abntrefinfo{Jordao}{JORDAO}{2009}
+{JORDAO, F. \emph{História Mobile 2}. 2009.
+Dispon{\'\i}vel em:
+  \url{https://www.tecmundo.com.br/celular/2140-historia-a-evolucao-do-celular.htm}.}
 
 \bibitem[Justen 2018]{pwa2}
 \abntrefinfo{Justen}{JUSTEN}{2018}
@@ -114,16 +136,44 @@ Dispon{\'\i}vel em:
   jul 2018.}
 
 \bibitem[MDN 2019]{manifestfile}
-\abntrefinfo{MDN}{MDN}{2019}
+\abntrefinfo{MDN}{MDN}{2019a}
 {MDN. \emph{Arquivo de Manifesto}. 2019.
 Dispon{\'\i}vel em:
   \url{https://developer.mozilla.org/pt-BR/docs/Web/Manifest}.}
+
+\bibitem[MDN 2019]{indexdb}
+\abntrefinfo{MDN}{MDN}{2019b}
+{MDN. \emph{IndexedDB}. 2019.
+Dispon{\'\i}vel em: \url{https://developer.mozilla.org/pt-BR/docs/IndexedDB}.}
+
+\bibitem[Microlins 2017]{historia_android}
+\abntrefinfo{Microlins}{MICROLINS}{2017}
+{MICROLINS. \emph{Historia Android}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.microlins.com.br/noticias/tecnologia/linha-do-tempo-a-evolucao-dos-celulares}.}
 
 \bibitem[Pereira 2009]{devmediaCSS2018}
 \abntrefinfo{Pereira}{PEREIRA}{2009}
 {PEREIRA, A. \emph{A origem do CSS, um pouco da história.} 2009.
 Dispon{\'\i}vel em:
   \url{https://www.devmedia.com.br/a-origem-do-css-um-pouco-da-historia/15195}.}
+
+\bibitem[Pinterest 2019]{motorola_dynatac}
+\abntrefinfo{Pinterest}{PINTEREST}{2019}
+{PINTEREST. \emph{Motorola Dynatac}. 2019.
+Dispon{\'\i}vel em: \url{https://br.pinterest.com/pin/346636502552324402/}.}
+
+\bibitem[Prodnote 2015]{nokia_9000}
+\abntrefinfo{Prodnote}{PRODNOTE}{2015}
+{PRODNOTE. \emph{Nokia 9000}. 2015.
+Dispon{\'\i}vel em:
+  \url{https://prodnote.wordpress.com/2015/03/12/nokia-9000-communicator-throwback/}.}
+
+\bibitem[Rigues 2016]{historia_mobile}
+\abntrefinfo{Rigues}{RIGUES}{2016}
+{RIGUES, R. \emph{História Mobile}. 2016.
+Dispon{\'\i}vel em:
+  \url{https://blog.meuquantum.com.br/veja-evolucao-do-smartphone/}.}
 
 \bibitem[Rocha 1999]{rocha99}
 \abntrefinfo{Rocha}{ROCHA}{1999}
@@ -141,6 +191,12 @@ Dispon{\'\i}vel em:
 {THOMS, N. \emph{A look back at HTML5}. 2017. FastHosts.
 Dispon{\'\i}vel em:
   \url{https://www.fasthosts.co.uk/blog/websites/look-back-html5}.}
+
+\bibitem[TreinaWeb 2017]{firebase}
+\abntrefinfo{TreinaWeb}{TREINAWEB}{2017}
+{TREINAWEB. \emph{Firebase}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.treinaweb.com.br/blog/firebase-descubra-no-que-esta-plataforma-pode-te-ajudar/}.}
 
 \bibitem[Wilson e Madsen 2010]{memoir}
 \abntrefinfo{Wilson e Madsen}{WILSON; MADSEN}{2010}

@@ -4,18 +4,16 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Justificativa}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~a}o Do Texto}{7}{section.1.2}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {\textbf {Introdu\IeC {\c c}\IeC {\~a}o}}}{7}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Arquiteturas WEB}}{8}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {\textbf {Arquiteturas WEB}}}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Hist\IeC {\'o}ria}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Modelo de Multicamadas}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Camada de Apresenta\IeC {\c c}\IeC {\~a}o}{14}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Camada de Regra de Neg\IeC {\'o}cio}{14}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Camada de Dados}{14}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Vantagens}{14}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Clientes Leves}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Clientes Leves}{15}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Facilidade de Redistribui\IeC {\c c}\IeC {\~a}o}{15}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Modulariza\IeC {\c c}\IeC {\~a}o}{15}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Economia de conex\IeC {\~o}es no servidor}{15}{subsection.2.3.4}
@@ -25,40 +23,44 @@
 \contentsline {subsection}{\numberline {2.4.1}Arquitetura Monol\IeC {\'\i }tica}{16}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Arquitetura de Micro servi\IeC {\c c}os}{18}{subsection.2.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Arquitetura dos Dispositivos M\IeC {\'o}veis}}{21}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {\textbf {Arquitetura dos Dispositivos M\IeC {\'o}veis}}}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Evolu\IeC {\c c}\IeC {\~a}o dos Dispositivos M\IeC {\'o}veis}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Android}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}iOS}{21}{section.3.3}
-\contentsline {section}{\numberline {3.4}Compara\IeC {\c c}\IeC {\~a}o entre IOS e Android}{21}{section.3.4}
+\contentsline {section}{\numberline {3.2}iOS}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Android}{25}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conhecendo as Progressives Web Apps}}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Caracter\IeC {\'\i }sticas}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Confi\IeC {\'a}vel}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}R\IeC {\'a}pido}{25}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Integra\IeC {\c c}\IeC {\~a}o e Engajamento}{25}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Vantagens}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}F\IeC {\'a}cil Instala\IeC {\c c}\IeC {\~a}o e Atualiza\IeC {\c c}\IeC {\~a}o}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Custos Reduzidos de Desenvolvimento e Suporte}{27}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}R\IeC {\'a}pido, Leve e Seguro}{28}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}N\IeC {\~a}o necessita de nenhuma loja de aplicativos}{28}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Customiz\IeC {\'a}vel}{28}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Desvantagens}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Funcionalidades Limitadas}{29}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Limita\IeC {\c c}\IeC {\~o}es para o iOS}{29}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {\textbf {Conhecendo as Progressives Web Apps}}}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Caracter\IeC {\'\i }sticas}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Confi\IeC {\'a}vel}{27}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}R\IeC {\'a}pido}{29}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Integra\IeC {\c c}\IeC {\~a}o e Engajamento}{29}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Vantagens}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}F\IeC {\'a}cil Instala\IeC {\c c}\IeC {\~a}o e Atualiza\IeC {\c c}\IeC {\~a}o}{31}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Custos Reduzidos de Desenvolvimento e Suporte}{31}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}R\IeC {\'a}pido, Leve e Seguro}{32}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}N\IeC {\~a}o necessita de nenhuma loja de aplicativos}{32}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Customiz\IeC {\'a}vel}{32}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Desvantagens}{33}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Funcionalidades Limitadas}{33}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Limita\IeC {\c c}\IeC {\~o}es para o iOS}{33}{subsection.4.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {An\IeC {\'a}lise comparativa entre PWAs e Aplica\IeC {\c c}\IeC {\~o}es M\IeC {\'o}veis Nativas}}{30}{chapter.5}
-\contentsline {section}{\numberline {5.1}Aplica\IeC {\c c}\IeC {\~a}o Nativa}{30}{section.5.1}
-\contentsline {section}{\numberline {5.2}Comparativo PWA e Aplica\IeC {\c c}\IeC {\~a}o nativa}{31}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Cria\IeC {\c c}\IeC {\~a}o da aplica\IeC {\c c}\IeC {\~a}o e Distribui\IeC {\c c}\IeC {\~a}o}{31}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Instala\IeC {\c c}\IeC {\~a}o}{32}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Engajamento do Usu\IeC {\'a}rio}{32}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Funcionamento Offline}{33}{subsection.5.2.4}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {\textbf {An\IeC {\'a}lise comparativa entre PWAs e Aplica\IeC {\c c}\IeC {\~o}es M\IeC {\'o}veis Nativas}}}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}Aplica\IeC {\c c}\IeC {\~a}o Nativa}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}Comparativo PWA e Aplica\IeC {\c c}\IeC {\~a}o nativa}{35}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Cria\IeC {\c c}\IeC {\~a}o da aplica\IeC {\c c}\IeC {\~a}o e Distribui\IeC {\c c}\IeC {\~a}o}{35}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Instala\IeC {\c c}\IeC {\~a}o}{36}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Engajamento do Usu\IeC {\'a}rio}{36}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Funcionamento Offline}{37}{subsection.5.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Estudo de Caso}}{34}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {\textbf {Estudo de Caso}}}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ferramentas Utilizadas}{38}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conhecendo o Aplicativo}{39}{section.6.2}
+\contentsline {section}{\numberline {6.3}Configura\IeC {\c c}\IeC {\~o}es Inicias Do Aplicativo com PWA}{41}{section.6.3}
+\contentsline {subsubsection}{\numberline {6.3.0.1}Arquivo de Manifesto}{41}{subsubsection.6.3.0.1}
+\contentsline {section}{\numberline {6.4}Recursos Avan\IeC {\c c}ados do Service Worker}{44}{section.6.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{35}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{54}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{36}{section*.39}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{55}{section*.41}
 \vspace {\cftbeforechapterskip }
