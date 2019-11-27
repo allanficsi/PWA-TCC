@@ -58,7 +58,7 @@
 \contentsline {subsubsection}{\numberline {6.3.0.1}Arquivo de Manifesto}{41}{subsubsection.6.3.0.1}
 \contentsline {section}{\numberline {6.4}Recursos Avan\IeC {\c c}ados do Service Worker}{44}{section.6.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclus\IeC {\~a}o}}{54}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {\textbf {Conclus\IeC {\~a}o}}}{54}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}

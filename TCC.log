@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.21)  26 NOV 2019 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.26)  26 NOV 2019 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,7 +1334,7 @@ although it is yet undefined on input line 17.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
  [9] [10]
-<images/cliente-servidor.JPG, id=310, 389.20406pt x 286.82156pt>
+<images/cliente-servidor.JPG, id=304, 389.20406pt x 286.82156pt>
 File: images/cliente-servidor.JPG Graphic file (type jpg)
 <use images/cliente-servidor.JPG>
 Package pdftex.def Info: images/cliente-servidor.JPG  used on input line 48.
@@ -1352,7 +1352,7 @@ File: omsphv.fd
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
  [11] [12 <./images/cliente-servidor.JPG>]
-<images/multicamada.jpg, id=340, 676.5275pt x 274.02374pt>
+<images/multicamada.jpg, id=334, 676.5275pt x 274.02374pt>
 File: images/multicamada.jpg Graphic file (type jpg)
 <use images/multicamada.jpg>
 Package pdftex.def Info: images/multicamada.jpg  used on input line 85.
@@ -1362,7 +1362,7 @@ Package acronym Info: Label `acro:SGBD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 100.
  [14] [15]
-<images/app-monolitica.png, id=379, 602.25pt x 305.14pt>
+<images/app-monolitica.png, id=373, 602.25pt x 305.14pt>
 File: images/app-monolitica.png Graphic file (type png)
 <use images/app-monolitica.png>
 Package pdftex.def Info: images/app-monolitica.png  used on input line 142.
@@ -1381,7 +1381,7 @@ Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 180.
  [18]
-<images/micro-deployment.png, id=417, 780.9175pt x 364.36125pt>
+<images/micro-deployment.png, id=411, 780.9175pt x 364.36125pt>
 File: images/micro-deployment.png Graphic file (type png)
 <use images/micro-deployment.png>
 Package pdftex.def Info: images/micro-deployment.png  used on input line 187.
@@ -1396,7 +1396,7 @@ Underfull \hbox (badness 1221) in paragraph at lines 4--4
 
 Package acronym Info: Label `acro:SO' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
-<images/motorola_dynatac.jpg, id=435, 328.8285pt x 318.7107pt>
+<images/motorola_dynatac.jpg, id=429, 328.8285pt x 318.7107pt>
 File: images/motorola_dynatac.jpg Graphic file (type jpg)
 <use images/motorola_dynatac.jpg>
 Package pdftex.def Info: images/motorola_dynatac.jpg  used on input line 18.
@@ -1408,12 +1408,12 @@ although it is yet undefined on input line 25.
 
 
 ]
-<images/IBM_Simon.jpg, id=452, 602.25pt x 602.25pt>
+<images/IBM_Simon.jpg, id=446, 602.25pt x 602.25pt>
 File: images/IBM_Simon.jpg Graphic file (type jpg)
 <use images/IBM_Simon.jpg>
 Package pdftex.def Info: images/IBM_Simon.jpg  used on input line 31.
 (pdftex.def)             Requested size: 313.1718pt x 313.1718pt.
-<images/nokia_communicator_9000.jpg, id=458, 240.9pt x 266.9172pt>
+<images/nokia_communicator_9000.jpg, id=452, 240.9pt x 266.9172pt>
 File: images/nokia_communicator_9000.jpg Graphic file (type jpg)
 <use images/nokia_communicator_9000.jpg>
 Package pdftex.def Info: images/nokia_communicator_9000.jpg  used on input line
@@ -1421,7 +1421,7 @@ Package pdftex.def Info: images/nokia_communicator_9000.jpg  used on input line
 (pdftex.def)             Requested size: 192.72025pt x 213.53404pt.
  [22 <./images/motorola_dynatac.jpg> <./images/IBM_Simon.jpg>] [23 <./images/no
 kia_communicator_9000.jpg>]
-<images/iPhone.jpg, id=474, 1027.84pt x 853.1875pt>
+<images/iPhone.jpg, id=468, 1027.84pt x 853.1875pt>
 File: images/iPhone.jpg Graphic file (type jpg)
 <use images/iPhone.jpg>
 Package pdftex.def Info: images/iPhone.jpg  used on input line 52.
@@ -1438,7 +1438,7 @@ Package pdftex.def Info: images/iPhone.jpg  used on input line 52.
 Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
  [27] [28]
-<images/sw-lifecycle.png, id=539, 704.6325pt x 687.56876pt>
+<images/sw-lifecycle.png, id=533, 704.6325pt x 687.56876pt>
 File: images/sw-lifecycle.png Graphic file (type png)
 <use images/sw-lifecycle.png>
 Package pdftex.def Info: images/sw-lifecycle.png  used on input line 53.
@@ -1447,13 +1447,13 @@ Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 65.
  [29 <./images/sw-lifecycle.png>]
-<images/add-to-home-screen.png, id=557, 813.0375pt x 481.8pt>
+<images/add-to-home-screen.png, id=551, 813.0375pt x 481.8pt>
 File: images/add-to-home-screen.png Graphic file (type png)
 <use images/add-to-home-screen.png>
 Package pdftex.def Info: images/add-to-home-screen.png  used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 202.32521pt.
  [30 <./images/add-to-home-screen.png>] [31] [32]
-<images/pwa_custom.png, id=603, 1722.435pt x 1245.65375pt>
+<images/pwa_custom.png, id=597, 1722.435pt x 1245.65375pt>
 File: images/pwa_custom.png Graphic file (type png)
 <use images/pwa_custom.png>
 Package pdftex.def Info: images/pwa_custom.png  used on input line 111.
@@ -1474,24 +1474,24 @@ Package pdftex.def Info: images/pwa_custom.png  used on input line 111.
 
 
 ]
-<images/tela_inicial.png, id=669, 750.805pt x 1573.88pt>
+<images/tela_inicial.png, id=663, 750.805pt x 1573.88pt>
 File: images/tela_inicial.png Graphic file (type png)
 <use images/tela_inicial.png>
 Package pdftex.def Info: images/tela_inicial.png  used on input line 28.
 (pdftex.def)             Requested size: 150.15834pt x 314.77043pt.
  [39 <./images/tela_inicial.png>]
-<images/tela_post.png, id=677, 1414.28375pt x 2872.7325pt>
+<images/tela_post.png, id=671, 1414.28375pt x 2872.7325pt>
 File: images/tela_post.png Graphic file (type png)
 <use images/tela_post.png>
 Package pdftex.def Info: images/tela_post.png  used on input line 38.
 (pdftex.def)             Requested size: 99.00998pt x 201.11182pt.
-<images/tela_ajuda.png, id=679, 750.805pt x 1573.88pt>
+<images/tela_ajuda.png, id=673, 750.805pt x 1573.88pt>
 File: images/tela_ajuda.png Graphic file (type png)
 <use images/tela_ajuda.png>
 Package pdftex.def Info: images/tela_ajuda.png  used on input line 47.
 (pdftex.def)             Requested size: 105.11198pt x 220.34169pt.
  [40 <./images/tela_post.png> <./images/tela_ajuda.png>]
-<images/pwa_add.jpeg, id=689, 722.7pt x 1284.8pt>
+<images/pwa_add.jpeg, id=683, 722.7pt x 1284.8pt>
 File: images/pwa_add.jpeg Graphic file (type jpg)
 <use images/pwa_add.jpeg>
 Package pdftex.def Info: images/pwa_add.jpeg  used on input line 64.
@@ -1507,20 +1507,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
  [43] [44]
-<images/pwa_offline.png, id=786, 750.805pt x 1573.88pt>
+<images/pwa_offline.png, id=780, 750.805pt x 1573.88pt>
 File: images/pwa_offline.png Graphic file (type png)
 <use images/pwa_offline.png>
 Package pdftex.def Info: images/pwa_offline.png  used on input line 181.
 (pdftex.def)             Requested size: 180.19687pt x 377.73892pt.
  [45 <./images/pwa_offline.png>]
 [46] [47] [48]
-<images/pwa_notification.png, id=888, 750.805pt x 1573.88pt>
+<images/pwa_notification.png, id=882, 750.805pt x 1573.88pt>
 File: images/pwa_notification.png Graphic file (type png)
 <use images/pwa_notification.png>
 Package pdftex.def Info: images/pwa_notification.png  used on input line 302.
 (pdftex.def)             Requested size: 112.61589pt x 236.07181pt.
  [49 <./images/pwa_notification.png>] [50] [51] [52]
-<images/pwa_default_notification.jpeg, id=986, 722.7pt x 1284.8pt>
+<images/pwa_default_notification.jpeg, id=980, 722.7pt x 1284.8pt>
 File: images/pwa_default_notification.jpeg Graphic file (type jpg)
 <use images/pwa_default_notification.jpeg>
 Package pdftex.def Info: images/pwa_default_notification.jpeg  used on input li
@@ -1568,47 +1568,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
 (./capitulos/cap5.aux) (./capitulos/cap6.aux) (./capitulos/cap7.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package rerunfilecheck Info: File `TCC.brf' has not changed.
+(rerunfilecheck)             Checksum: D773A360A89FD9EC8F841EB4E8217C15;4310.
 
-
-Package rerunfilecheck Warning: File `TCC.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `TCC.brf':
-(rerunfilecheck)             Before: FDE68BCD25A7D8B003FCC8205D1627D8;4312
-(rerunfilecheck)             After:  D773A360A89FD9EC8F841EB4E8217C15;4310.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 19330 strings out of 492982
- 284792 string characters out of 6134895
- 653959 words of memory out of 5000000
+ 19327 strings out of 492982
+ 284744 string characters out of 6134896
+ 653958 words of memory out of 5000000
  21859 multiletter control sequences out of 15000+600000
  49254 words of font info for 210 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,13n,45p,1373b,1974s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.6.4.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvro8a.pfb>
-Output written on TCC.pdf (57 pages, 4626479 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
+tic/uhvro8a.pfb>
+Output written on TCC.pdf (57 pages, 4628789 bytes).
 PDF statistics:
- 1367 PDF objects out of 1440 (max. 8388607)
- 1260 compressed objects within 13 object streams
- 446 named destinations out of 1000 (max. 500000)
+ 1369 PDF objects out of 1440 (max. 8388607)
+ 1262 compressed objects within 13 object streams
+ 443 named destinations out of 1000 (max. 500000)
  27672 words of extra memory for PDF output out of 29859 (max. 10000000)
 
