@@ -1,6 +1,6 @@
-\chapter{\textbf{Análise comparativa entre PWAs e Aplicações Móveis Nativas}}
+\chapter{{\Large \textbf{Comparativo PWA e Aplicação nativa}}}
 
-As \ac{PWA}s provaram ser muito úteis, e foram apresentados diversos recursos disponíveis em dispositivos móveis, em que as \ac{PWA}s dão suporte. No entanto, eles não estão aqui para tomar o lugar dos aplicativos nativos, mas para corrigir alguns problemas, como a compatibilidade entre plataformas e funcionamento em baixa conectividade e até mesmo offline.
+As \ac{PWA} provaram ser muito úteis, e foram apresentados diversos recursos disponíveis em dispositivos móveis, em que as \ac{PWA} dão suporte. No entanto, eles não estão aqui para tomar o lugar dos aplicativos nativos, mas para corrigir alguns problemas, como a compatibilidade entre plataformas e funcionamento em baixa conectividade e até mesmo offline.
 
 Tendo isso em vista, esse capítulo irá abordar, o que são as aplicações para dispositivos móveis nativas, e uma comparação levando em consideração as vantagens e desvantagens entre desenvolver uma aplicação \ac{PWA} e um aplicativo nativo.
 
@@ -18,34 +18,42 @@ Ao desenvolver uma aplicação nativa, é necessário muitas vezes usar linguage
 \end{itemize}
 
 \section{Comparativo PWA e Aplicação nativa}
-\subsection{Criação da aplicação e Distribuição}
-\subsection*{Aplicação Nativa}
-O desenvolvimento de uma aplicação móvel nativa para Android e iOS requer duas equipes, uma para cada sistema. Mesmo que os aplicativos de ambos os sistemas sejam desenvolvidos ao mesmo tempo, ainda demorará mais para garantir que a funcionalidade seja a mesma para os dois aplicativos. Tudo isso significa tempo e custos consideráveis necessários para criar um aplicativo.
+\subsection*{A) Criação da aplicação e Distribuição}
 
-O envio e aprovação via App Stores é uma parte separada da distribuição do aplicativo móvel nativo. O produto terá que passar por um período de moderação, pela equipe da plataforma, o que geralmente leva algum tempo. Para a Google Play Store, pode levar algumas horas, enquanto na Apple App Store pode levar de dois a quatro dias. Esse tempo de moderação, acaba impactando no atraso da distribuição da aplicação.
+\begin{itemize}
+	\item Aplicação Nativa: O desenvolvimento de uma aplicação móvel nativa para Android e iOS requer duas equipes, uma para cada sistema. Mesmo que os aplicativos de ambos os sistemas sejam desenvolvidos ao mesmo tempo, ainda demorará mais para garantir que a funcionalidade seja a mesma para os dois aplicativos. Tudo isso significa tempo e custos consideráveis necessários para criar um aplicativo.
+	
+	O envio e aprovação via App Stores é uma parte separada da distribuição do aplicativo móvel nativo. O produto terá que passar por um período de moderação, pela equipe da plataforma, o que geralmente leva algum tempo. Para a Google Play Store, pode levar algumas horas, enquanto na Apple App Store pode levar de dois a quatro dias. Esse tempo de moderação, acaba impactando no atraso da distribuição da aplicação.
+	
+	\item A criação de uma \ac{PWA} requer apenas uma equipe de desenvolvimento da Web, pois na verdade é um site, embora com alguns recursos nativos dos dispositivos móveis. A validação pelas lojas não é necessária, pois se está criando um \textit{website}. Não é necessário enviar a aplicação para nenhuma loja nem esperar que ele seja aprovado. Depois que a \ac{PWA} é construída e publicada na Web, ela está pronto para ser usada.
+	
+	
+	
+\end{itemize}
 
-\subsection*{PWA}
-A criação de uma \ac{PWA} requer apenas uma equipe de desenvolvimento da Web, pois na verdade é um site, embora com alguns recursos nativos dos dispositivos móveis. A validação pelas lojas não é necessária, pois se está criando um \textit{website}. Não é necessário enviar a aplicação para nenhuma loja nem esperar que ele seja aprovado. Depois que a \ac{PWA} é construída e publicada na Web, ela está pronto para ser usada.
+\subsection*{B) Instalação}
 
-\subsection{Instalação}
-\subsection*{Aplicação Nativa}
-Basicamente o fluxo de instalação é, ir em uma loja de aplicativos, procurar a aplicação e realizar o download, e após isso, a instalação no dispositivo móvel, e por fim o aplicativo estará disponível para uso.
+\begin{itemize}
 
-\subsection*{PWA}
-Com a \ac{PWA} é necessário abrir um navegador, acessar o site da aplicação, irá ser apresentado uma mensagem, perguntando se quer adicionar a aplicação para a tela inicial do dispositivo, confirmando, a aplicação irá ser instalada.
+\item Aplicação Nativa: Basicamente o fluxo de instalação é, ir em uma loja de aplicativos, procurar a aplicação e realizar o download, e após isso, a instalação no dispositivo móvel, e por fim o aplicativo estará disponível para uso.
 
-\subsection{Engajamento do Usuário}
-Uma das ferramentas de engajamento mais poderosas é a \textit{Push Notifications}. São mensagens entregues por meio de um aplicativo instalado nos dispositivos, nos dispositivos móveis ou nos desktops dos usuários, para alertar seus usuários sobre novas chegadas de ações, vendas ou outras notícias.
+\item PWA: Com a \ac{PWA} é necessário abrir um navegador, acessar o site da aplicação, irá ser apresentado uma mensagem, perguntando se quer adicionar a aplicação para a tela inicial do dispositivo, confirmando, a aplicação irá ser instalada.
+\end{itemize}
 
-\subsection*{Aplicação Nativa}
-Em aplicativos móveis nativos, a disponibilidade do recurso de notificações por \textit{push} não depende do sistema operacional ou do modelo do dispositivo. Os usuários os receberão independentemente desses fatores.
+\subsection*{C) Engajamento do Usuário}
+Uma das ferramentas de engajamento mais poderosas é a Push Notifications. São mensagens entregues por meio de um aplicativo instalado nos dispositivos, nos dispositivos móveis ou nos desktops dos usuários, para alertar seus usuários sobre novas chegadas de ações, vendas ou outras notícias.
+\begin{itemize}
+	
+	\item Aplicação Nativa: Em aplicativos móveis nativos, a disponibilidade do recurso de notificações por \textit{push} não depende do sistema operacional ou do modelo do dispositivo. Os usuários os receberão independentemente desses fatores.
+	
+	\item PWA: Nas \ac{PWA}, as \textit{Push Notifications} também estão disponíveis, mas apenas para o Android. Isso é possível graças aos \textit{service workers} eles podem enviar notificações quando uma aplicação \ac{PWA} não está em execução.
+\end{itemize}
 
-\subsection*{PWA}
-Nas \ac{PWA}, as \textit{Push Notifications} também estão disponíveis, mas apenas para o Android. Isso é possível graças aos \textit{service workers} eles podem enviar notificações quando uma aplicação \ac{PWA} não está em execução.
+\subsection*{D) Funcionamento Offline}
 
-\subsection{Funcionamento Offline}
-\subsection*{Aplicação Nativa}
-Quando estamos falando sobre o modo offline do aplicativo nativo, assumimos que ele opera da mesma maneira que na conexão. O ponto é que um aplicativo nativo mostra o conteúdo e a funcionalidade que ele conseguiu armazenar em \textit{cache} quando a conexão ainda estava lá. Isso está disponível devido ao armazenamento local e à sincronização suave de dados com a nuvem.
-
-\subsection*{PWA}
-Nas aplicações \ac{PWA}, os usuários também podem aproveitar o modo offline. Quando ativadas, as páginas mostram o conteúdo pré-carregado ou carregado, que é fornecido com os \textit{service workers}. No entanto, o modo offline nas \ac{PWA}s é um pouco mais lento em comparação a um aplicativo móvel nativo, pois ele é implementado de forma diferente. Ao mesmo tempo, a diferença entre os dois tipos de aplicativos não é tão drástica.
+\begin{itemize}
+	
+	\item Aplicação Nativa: Quando estamos falando sobre o modo offline do aplicativo nativo, assumimos que ele opera da mesma maneira que na conexão. O ponto é que um aplicativo nativo mostra o conteúdo e a funcionalidade que ele conseguiu armazenar em \textit{cache} quando a conexão ainda estava lá. Isso está disponível devido ao armazenamento local e à sincronização suave de dados com a nuvem.
+	
+	\item PWA: Nas aplicações \ac{PWA}, os usuários também podem aproveitar o modo offline. Quando ativadas, as páginas mostram o conteúdo pré-carregado ou carregado, que é fornecido com os \textit{service workers}. No entanto, o modo offline nas \ac{PWA} é um pouco mais lento em comparação a um aplicativo móvel nativo, pois ele é implementado de forma diferente. Ao mesmo tempo, a diferença entre os dois tipos de aplicativos não é tão drástica.
+\end{itemize}

@@ -2,11 +2,10 @@
 % Arquivo: cap2.tex
 % ----------------------------------------------------------------------- %
 
-\chapter{\textbf{Arquiteturas  WEB}}
+\chapter{\Large{\textbf{Arquiteturas  WEB}}}
 \label{c_cap2}
 
 Uma aplicação \textit{web} é um \textit{software} que roda no lado do cliente, ou seja, na máquina do próprio usuário, com essa abordagem é necessário  apenas que o cliente possua um \textit{browser}(navegador), independente de seu sistema operacional para acessar uma aplicação \textit{web}. Com isso os desenvolvedores não precisam desenvolver diversas versões de uma mesma aplicação, para sistemas operacionais diferentes.
-
 Tendo isso em vista, este capítulo visa apresentar um breve histórico da evolução da arquitetura  \textit{web}, apresentará o modelo de multicamadas e por fim demonstrará seus estilos arquitetônicos.
 
 \section{História}
@@ -29,24 +28,24 @@ O \textit{Flash} ganhou bastante popularidade entre os programadores e desenvolv
 Em 1999, o conceito de aplicação \textit{web} apareceu na linguagem Java. Mais tarde, em 2005, o Ajax foi apresentado por Jesse James Garrett em seu artigo "Ajax: uma nova abordagem para a aplicação Web". Esta nova técnica de desenvolvimento, possibilitou a criação de aplicações \textit{web} assíncronas, ou seja, o fluxo do código não é interrompido até que a resposta seja obtida. Ao invés disso, após realizar a requisição, a resposta é obtida em um momento posterior, de forma independente, e tratada por uma função (chamada função de \textit{callback}). Com isso era possível enviar dados para o servidor e recuperá-los sem interferir na navegação de uma página específica, não precisando baixar a página inteira \cite{devmediaAsync2018}.
 
 
-\section{Modelo de Multicamadas}
+\section{Modelo de Camadas}
 \label{s_c2_figuras}
 
 
-\subsection*{Modelo de uma camada}
+\subsection{Modelo de uma camada}
 
 Esse modelo foi fortemente usado durante os anos 1960 até meados dos anos 80, também chamado de sistemas centralizados ou de arquitetura uni processada, o modelo de uma camada era caracterizado por manter todos os recursos do sistema (banco de dados, regras de negócios e interfaces de usuário) em computadores de grande porte, os conhecidos mainframes. Os terminais clientes não possuíam recursos de armazenamento ou processamento, sendo conhecidos como terminais burros ou mudos. Nesta arquitetura, o mainframe tinha a responsabilidade de realizar todas as tarefas e processamento \cite{devmediaMultiCamada2018}. As aplicações eram escritas em um único módulo ou camada monolítica, com programas e dados firmemente entrelaçados. Tal integração estreita entre programa e dados dificultava a evolução e reuso de componentes. Cada desenvolvedor de aplicação escolhia como estruturar e armazenar os dados e usava-se frequentemente técnicas para minimizar o caro armazenamento e manipulação em memória principal \cite{devmediaMultiCamadaP12018}.
 
 
-\subsection*{Modelo de duas camadas}
+\subsection{Modelo de duas camadas}
 
 Também conhecido como modelo cliente-servidor, seu uso se deu bastante durantes os anos 1980 à 1990, durante essa época novas tecnologias foram desenvolvidas e adotadas como, \textit{softwares} para gerenciamento de banco de dados relacionais (SGBD), a utilização de rede locais interligando microcomputadores departamentais, o início do paradigma da programação orientada a objetos, e a redução dos custos do hardware, tornando possível a massificação da computação pessoal \cite{devmediaMultiCamadaP12018}. Também devido à grande expansão das redes de computadores, os métodos para desenvolvimento de \textit{software} foram aos poucos evoluindo para uma arquitetura descentralizada, na qual não somente o servidor era responsável pelo processamento, mas as estações clientes também assumem parte desta tarefa. Dentro deste contexto que surgiu o modelo de duas camadas, justamente com o objetivo de dividir a carga de processamento entre o servidor e as máquinas clientes \cite{devmediaMultiCamada2018}. A \autoref{f_c2_cliente_servidor}  é uma representação do modelo cliente-servidor.
 
 \begin{figure}[h!]
 \centering
 \caption{Modelo Cliente-Servidor}
-\frame{\includegraphics[scale=0.60]{images/cliente-servidor}}\\
-Fonte: \cite{devmediaMultiCamadaP12018}
+\frame{\includegraphics[scale=0.49]{images/cliente-servidor}}\\
+{\footnotesize Fonte: \cite{devmediaMultiCamadaP12018}}
 \label{f_c2_cliente_servidor}
 \end{figure}
 
@@ -73,7 +72,7 @@ Com o modelo de duas camadas foi possível que \textit{softwares} de terceiros t
 
 O modelo de duas camadas também pode apresentar algumas desvantagens, como sua aplicação é dividida em partes, acaba acarretando em um \textit{software} mais complexo, com novos cenários a serem tratados. A comunicação do cliente com o servidor se dá por meio da rede, com isso dados sensíveis serão trafegados na rede e precisam de um cuidado maior com a criptografia \cite{rocha99}. 
 
-\subsection*{Modelo de Multicamadas}
+\subsection{Modelo de Multicamadas}
 Modelo de multicamadas ou cliente servidor de múltiplas camadas, se consolida a partir dos anos 90 como resposta a  popularização da internet e melhoria das tecnologias de redes, sendo  uma evolução do modelo de duas camadas. Ele tem como propósito  que uma aplicação cliente não realizasse comunicação direta com o banco de dados, no meio do caminho haveria uma ou mais camadas, que elas sim se comunicariam com o banco de dados. A ideia básica é distribuir o processamento da aplicação em várias máquinas, evitando a sobrecarga sobre uma única camada, como ocorria no modelo cliente-servidor. Com a distribuição da carga de processamento em diversas máquinas é possível melhorar o desempenho e compartilhar recursos, utilizando-os como se fossem recursos locais, característica conhecida como  transparência de uso \cite{devmediaMultiCamadaP12018}. Com isso a aplicação pode ser dividida em pequenos pedaços, cada um com sua responsabilidade. Além dessas vantagens, há uma compensação no custo em relação ao desempenho, a possibilidade de aumento de escala e expansão da rede sem perda de qualidade, melhora na robustez em função da distribuição dos serviços em mais de uma máquina, e muitos outros benefícios \cite{devmediaMultiCamadaP12018}.
 
 Em uma aplicação que faz uso do  modelo de multicamadas, faz se necessário ao menos três camadas: camada de apresentação, camada de regras de negócio e a camada de dados. A \autoref{f_c2_multicamada} apresenta o esquema de um sistema multicamada. 
@@ -83,19 +82,19 @@ Em uma aplicação que faz uso do  modelo de multicamadas, faz se necessário ao
 	\caption{Modelo Multicamada}
 	\label{f_c2_multicamada}
 	\includegraphics[width=14cm]{images/multicamada.jpg}\\
-    Fonte: \cite{diegomacedoArqApp}
+    {\footnotesize Fonte: \cite{diegomacedoArqApp}}
  
 \end{figure}
 
-\subsection{Camada de Apresentação}
+\subsubsection{Camada de Apresentação}
 
 A camada de apresentação fica fisicamente localizada na estação cliente e é responsável por fazer a interação do usuário com o sistema. É uma camada bastante leve, que basicamente executa os tratamentos de telas e campos e geralmente acessa somente a segunda camada, a qual faz as requisições ao banco de dados e devolve o resultado. É também conhecida como cliente, regras de interface de usuário ou camada de interface \cite{devmediaMultiCamada2018}.
 
-\subsection{Camada de Regra de Negócio}
+\subsubsection{Camada de Regra de Negócio}
 
 Também conhecida como servidor de aplicação, lógica de negócio ou camada de acesso a dados, essa camada é a responsável por intermediar a comunicação entre a camada de apresentação com a camada de dados, só ela tem acesso a camada de dados. O servidor de aplicação é, geralmente, uma máquina dedicada e com elevados recursos de hardware, uma vez que nele é que ficam armazenados os métodos remotos (regras de negócios) e é realizado todo o seu tratamento e processamento. \cite{devmediaMultiCamada2018}.
 
-\subsection{Camada de Dados}
+\subsubsection{Camada de Dados}
 
 Também chamada de camada de banco de dados, essa camada é onde se localiza o \ac{SGBD}, ela é responsável por receber requisições da camada de regra de negócio, interpretá las e assim executá-las no banco de dados  \cite{devmediaMultiCamada2018}.
 
@@ -103,34 +102,23 @@ Também chamada de camada de banco de dados, essa camada é onde se localiza o \
 \section{Vantagens}
 
 O modelo de multicamadas apresentou diversas vantagens em relação ao modelo de duas camadas, são essas as que mais se destacam:
+\begin{itemize}
+\item Clientes Leves: Diferentemente do modelo de duas camadas, onde a regra de negócio era divida tanto na camada do cliente quanto na do servidor, aqui a camada intermediária é quem fica a cargo disso, na camada de apresentação será apenas para visualização de dados, além de possuir possíveis tratamentos de campos e telas  \cite{devmediaMultiCamada2018}.
 
-\subsection{Clientes Leves}
+\item Facilidade de Redistribuição: As estações clientes acessam a mesma camada intermediária, sendo assim, quando houver novas implementações ou alterações nas regras de negócios, será refletido para todas as estações clientes  \cite{devmediaMultiCamada2018}.
 
-Diferentemente do modelo de duas camadas, onde a regra de negócio era divida tanto na camada do cliente quanto na do servidor, aqui a camada intermediária é quem fica a cargo disso, na camada de apresentação será apenas para visualização de dados, além de possuir possíveis tratamentos de campos e telas  \cite{devmediaMultiCamada2018}.
+\item Modularização: A modularização refere-se a separar a lógica do negócio e regras de acesso ao banco de dados da camada de apresentação. Desta maneira, várias aplicações clientes podem compartilhar as mesmas regras, que ficam encapsuladas em uma camada de acesso comum.Assim sendo, as regras ficam centralizadas em um único local, ao contrário de em uma aplicação desenvolvida em duas camadas, na qual geralmente existe redundância nestas regras e uma mudança mesmo que pequena acarretará na redistribuição do aplicativo em cada estação cliente \cite{devmediaMultiCamada2018}.
 
-\subsection{Facilidade de Redistribuição}
+\item Economia de conexões no servidor: Em um sistema com o modelo de duas camadas, as estações clientes se comunicavam diretamente ao servidor que se localizava o banco de dados, então para cada estação cliente conectada era uma conexão aberta com o banco de dados, sendo que o banco de dados possuí um limite para conexões, tendo isso em vista, no modelo de multicamadas isso não ocorre já que quem se conecta com o banco de dados é o servidor de aplicação, localizado em uma camada intermediária, e uma conexão realizada pelo servidor de aplicação é compartilhada para as estações clientes a ele conectado, sendo assim poderia se ter várias estações clientes requisitando recursos do banco de dados, mas apenas uma conexão estaria aberta já que quem ficaria responsável pela conexão é o servidor de aplicação \cite{devmediaMultiCamada2018}.
 
-As estações clientes acessam a mesma camada intermediária, sendo assim, quando houver novas implementações ou alterações nas regras de negócios, será refletido para todas as estações clientes  \cite{devmediaMultiCamada2018}.
+\item Independência de localização: A localização não é um empecilho para a comunicação entre camadas, a estação cliente pode estar fisicamente distante para acessar as camadas intermediárias  \cite{devmediaMultiCamada2018}.
 
-\subsection{Modularização}
-
-A modularização refere-se a separar a lógica do negócio e regras de acesso ao banco de dados da camada de apresentação. Desta maneira, várias aplicações clientes podem compartilhar as mesmas regras, que ficam encapsuladas em uma camada de acesso comum.Assim sendo, as regras ficam centralizadas em um único local, ao contrário de em uma aplicação desenvolvida em duas camadas, na qual geralmente existe redundância nestas regras e uma mudança mesmo que pequena acarretará na redistribuição do aplicativo em cada estação cliente \cite{devmediaMultiCamada2018}.
-
-\subsection{Economia de conexões no servidor}
-
-Em um sistema com o modelo de duas camadas, as estações clientes se comunicavam diretamente ao servidor que se localizava o banco de dados, então para cada estação cliente conectada era uma conexão aberta com o banco de dados, sendo que o banco de dados possuí um limite para conexões, tendo isso em vista, no modelo de multicamadas isso não ocorre já que quem se conecta com o banco de dados é o servidor de aplicação, localizado em uma camada intermediária, e uma conexão realizada pelo servidor de aplicação é compartilhada para as estações clientes a ele conectado, sendo assim poderia se ter várias estações clientes requisitando recursos do banco de dados, mas apenas uma conexão estaria aberta já que quem ficaria responsável pela conexão é o servidor de aplicação \cite{devmediaMultiCamada2018}.
-
-\subsection{Independência de localização}
-
-A localização não é um empecilho para a comunicação entre camadas, a estação cliente pode estar fisicamente distante para acessar as camadas intermediárias  \cite{devmediaMultiCamada2018}.
-
-\subsection{Escalabilidade}
-
-No modelo de duas camadas, quando um grande número de estações clientes se conectam ao servidor, acaba ocorrendo uma grande perda de desempenho. Já com o modelo de multicamadas este problema pode ser contornado, já que é possível replicar a regra de negócio em servidores distintos através do balanceamento de carga, isso quer dizer que quando um servidor de aplicação estiver sobrecarregado, outro servidor é acionado para ajudar no controle de conexões, isso também pode ser usado quando um servidor de aplicação parar de funcionar \cite{devmediaMultiCamada2018}.
+\item Escalabilidade: No modelo de duas camadas, quando um grande número de estações clientes se conectam ao servidor, acaba ocorrendo uma grande perda de desempenho. Já com o modelo de multicamadas este problema pode ser contornado, já que é possível replicar a regra de negócio em servidores distintos através do balanceamento de carga, isso quer dizer que quando um servidor de aplicação estiver sobrecarregado, outro servidor é acionado para ajudar no controle de conexões, isso também pode ser usado quando um servidor de aplicação parar de funcionar \cite{devmediaMultiCamada2018}.
+\end{itemize}
 
 \section{Estilos Arquitetônicos}
 
-Nesta seção será apresentados os estilos arquitetônicos de desenvolvimento de uma aplicação web.
+Nesta seção serão apresentados os estilos arquitetônicos de desenvolvimento de uma aplicação web.
 
 \subsection{Arquitetura Monolítica}
 
@@ -140,23 +128,13 @@ Segundo \cite{monoVsMicro2017},  "Uma aplicação monolítica é aquele tipo de 
 	\centering
 	\caption{Aplicação Monolitica}
 	\includegraphics[scale=0.7]{images/app-monolitica.png}\\
-	Fonte:\cite{monoVsMicro2017}
+	{\footnotesize Fonte:\cite{monoVsMicro2017}}
  	\label{f_c2_app_monolitica}
 \end{figure}
-
 \newpage
-\subsection*{Camadas}
 
-\subsection*{Apresentação}
-Camada responsável pela visualização ou interface, que será apresentada para o usuário. "Em uma aplicação web, esta camada contém as páginas \ac{HTML} com \ac{JS} e \ac{CSS} que serão renderizadas no \textit{browser} de quem as acessar",  \cite{monoVsMicro2017}.
+A arquitetura monolítica possui como vantagens as seguintes características:
 
-\subsection*{Negócio}
-Camada que é responsável pela lógica da aplicação. Segundo \cite{monoVsMicro2017} "Nesta camada geralmente se encontram todas as bases de código, chamadas, \ac{API}'s e literalmente toda a inteligência do sistema em questão".
-
-\subsection*{Dados}
-Camada em que se encontram as classes encarregadas pela conexão com o \ac{SGBD} ou outro tipo de sistema de armazenamento de dados \cite{monoVsMicro2017}.
-
-\subsection*{Vantagens}
 \begin{itemize}
 	\item Fácil deploy da aplicação.
 	\item Não há duplicidade de código.
@@ -165,7 +143,7 @@ Camada em que se encontram as classes encarregadas pela conexão com o \ac{SGBD}
 	\item Fluxo de deploy simples.
 \end{itemize}
 
-\subsection*{Desvantagens}
+E como desvantagens:
 \begin{itemize}
 	\item Ponto único de falha.
 	\item Aumento de tamanho e complexidade ao longo do tempo.
@@ -184,12 +162,12 @@ Uma arquitetura de micro serviços segundo \cite{microservices2014}:  \begin{cit
 \begin{figure}[!htpb]
 	\centering
 	\caption{Representação de módulos monolítico e micro serviços}
-	\includegraphics[width=15cm]{images/micro-deployment.png}\\
-	Fonte: \cite{microservices2014}
+	\includegraphics[width=14cm]{images/micro-deployment.png}\\
+	{\footnotesize Fonte: \cite{microservices2014}}
  	\label{f_c2_app_monolitica_vs_microservices}
 \end{figure}
 
-\subsection*{Vantagens}
+A arquitetura de microserviços possui como vantagens as seguintes características:
 \begin{itemize}
 	\item Arquitetura individual simples.
 	\item Sistemas totalmente independentes.
@@ -201,7 +179,8 @@ Uma arquitetura de micro serviços segundo \cite{microservices2014}:  \begin{cit
 	\item Escalabilidade do sistema, serviços que sofrem de alta demanda podem ser replicados individualmente.
 \end{itemize}
 
-\subsection*{Desvantagens}
+\newpage
+E como desvantagens:
 \begin{itemize}
 	\item Desempenho prejudicado pela latência da rede e pelo custo de serialização e deserialização.
 	\item Se a aplicação não for bem documentada, a arquitetura geral tende a ser tornar complexa.

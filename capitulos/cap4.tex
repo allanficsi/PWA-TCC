@@ -1,12 +1,12 @@
-\chapter{\textbf{Conhecendo as Progressives Web Apps}}
+\chapter{\Large{\textbf{Conhecendo as Progressives Web Apps}}}
 
-\ac{PWA} é uma tecnologia emergente do Google, um conceito relativamente novo no mundo dos dispositivos móveis e da internet. De acordo com o Google Developers \cite{pwa}: \begin{citacao}
+Progressives Web Apps (PWA) é uma tecnologia emergente do Google, um conceito relativamente novo no mundo dos dispositivos móveis e da internet. De acordo com o Google Developers \cite{pwa}: \begin{citacao}
 "As Progressive Web Apps fornecem uma experiência instalável, semelhante a um aplicativo, em computadores e dispositivos móveis que são criados e entregues diretamente pela Web. Eles são aplicativos da web que são rápidos e confiáveis. E o mais importante, são aplicativos da web que funcionam em qualquer navegador."
 \end{citacao}
 
  \ac{PWA}s são desenvolvidas usando certas tecnologias e abordagens para criar aplicações que aproveitam os recursos dos dispositivos móveis nativos e de aplicativos da Web, essencialmente é uma mistura de aplicações web e mobiles nativas.
 
-O Google definiu um \textit{checklist} a ser seguido para se considerar uma aplicação como uma \ac{PWA} são elas:
+O \cite{pwa} definiu um \textit{checklist} a ser seguido para se considerar uma aplicação como uma \ac{PWA} são elas:
 
 \begin{itemize}
 	\item Progressivo - Funciona para qualquer usuário, independentemente do navegador escolhido, pois é criado com aprimoramento progressivo como princípio fundamental.
@@ -46,12 +46,12 @@ Após a etapa de ativação, o service worker gerenciará as páginas dentro do 
 
 
 A \autoref{f_c4_sw_ciclo} mostra uma versão minimalista do ciclo de vida do service worker, em sua primeira instalação.
-\newpage
+
 \begin{figure}[!htpb]
 	\centering
 	\caption{Ciclo de Vida do Service Worker}
-	\includegraphics[width=7cm]{images/sw-lifecycle.png}\\
-	Fonte:\cite{servicework}
+	\includegraphics[scale=0.18]{images/sw-lifecycle.png}\\
+	{\footnotesize Fonte:\cite{servicework}}
  	\label{f_c4_sw_ciclo}
 \end{figure}
 
@@ -68,7 +68,7 @@ O Manifesto do Aplicativo Web, é um arquivo no formato \ac{JSON}, que permite c
 	\centering
 	\caption{Adicionar a tela inicial}
 	\includegraphics[width=12cm]{images/add-to-home-screen.png}\\
-    Fonte:\cite{pwaHomeScreen}
+    {\footnotesize Fonte:\cite{pwaHomeScreen}}
  	\label{f_c4_add_home}
 \end{figure}
 
@@ -102,20 +102,19 @@ Com o \ac{PWA} implementado, a aplicação pode ser carregada em poucos segundos
 Para publicar uma aplicativo nativo para dispositivo móvel é necessário enviá-lo para alguma loja de aplicativos, como, Google Play Store ou Apple Store, e que ainda vai passar por um processo de análise do aplicativo. Com uma \ac{PWA}, não há necessidade de aguardar o término do período de moderação e como já mencionado, para instalar a aplicação progressiva, os usuários só precisarão abrir o website e clicar em "Adicionar à tela inicial". Embora se comportando como um aplicativo nativo, a \ac{PWA} ainda seria uma página da Web, clicável e compartilhável, e também é indexada pelo Google \cite{pwabenefits}.
 
 \subsection{Customizável}
-Se o usuário estiver sem conexão e quiser acessar novas páginas que não foram guardadas em cache, a aplicação não irá travar, mas mostrará uma mensagem personalizada, como na \autoref{f_c4_pwa_custom}:
+Se o usuário estiver sem conexão e quiser acessar novas páginas que não foram guardadas em cache, a aplicação não irá travar, mas mostrará uma mensagem personalizada, como na \autoref{f_c4_pwa_scren}:
 
-\newpage
 \begin{figure}[!htpb]
 	\centering
 	\caption{Telas Customizadas}
-	\includegraphics[width=13cm]{images/pwa_custom.png}\\
-	Fonte:\cite{pwabenefits}
- 	\label{f_c4_pwa_custom}
+	\includegraphics[scale=0.20]{images/pwa_custom.png}\\
+	{\footnotesize Fonte:\cite{pwabenefits}}
+ 	\label{f_c4_pwa_scren}
 \end{figure}
 
 \section{Desvantagens}
 \subsection{Funcionalidades Limitadas}
-As \ac{PWA}s ainda são sites e ainda não suportam todas as funcionalidades que os aplicativos nativos podem oferecer. Elas têm acesso limitado a recursos dos dispositivos. Além disso, as \ac{PWA}s podem oferecer um nível de notificação menos personalizado se comparado aos aplicativos nativos.
+As \ac{PWA} ainda são sites e ainda não suportam todas as funcionalidades que os aplicativos nativos podem oferecer. Elas têm acesso limitado a recursos dos dispositivos. Além disso, as \ac{PWA} podem oferecer um nível de notificação menos personalizado se comparado aos aplicativos nativos.
 
 \subsection{Limitações para o iOS}
-No momento, ainda há uma lacuna entre as \ac{PWA}s para Android e iOS. Embora os PWAs estejam disponíveis para usuários do iOS, nem todos os recursos que funcionam em dispositivos Android são oferecidos para iOS, no entanto, existe um movimento na equipe por trás do iOS que aos poucos estão implementando recursos para serem usados via \ac{PWA}, e provavelmente os usuários do iOS irão receber as mesmas funcionalidades das aplicações progressivas disponíveis no Android \cite{pwaios}.
+No momento, ainda há uma lacuna entre as \ac{PWA} para Android e iOS. Embora os PWAs estejam disponíveis para usuários do iOS, nem todos os recursos que funcionam em dispositivos Android são oferecidos para iOS, no entanto, existe um movimento na equipe por trás do iOS que aos poucos estão implementando recursos para serem usados via \ac{PWA}, e provavelmente os usuários do iOS irão receber as mesmas funcionalidades das aplicações progressivas disponíveis no Android \cite{pwaios}.

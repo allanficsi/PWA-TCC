@@ -10,6 +10,11 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{subcaption}
+\usepackage{anyfontsize}
+
+\usepackage{caption}
+\DeclareCaptionFont{xxviii}{\fontsize{11}{11}\selectfont}
+\captionsetup{font=xxviii}
 \lstset{ %
 	texcl=true,
 	aboveskip=5pt,
@@ -58,19 +63,29 @@
 \renewcommand\lstlistlistingname{Lista De Quadros}
 \usepackage{titlesec}
 
+\usepackage{chngcntr}
+\AtBeginDocument{\counterwithout{lstlisting}{chapter}}
+
 \titleformat{\section}    
 {\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
 
 \titleformat{\subsection}    
 {\normalfont\fontfamily{phv}\fontsize{14}{17}\bfseries}{\thesubsection}{1em}{}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\chapfnt}{\fontsize{16}{22}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %FORMATAR SOMENTE CABEÇALHOS DAS SEÇÕES
 %\titleformat{\chapter}    
 %{\normalfont\fontfamily{phv}\fontsize{16}{10}\bfseries}{\thechapter}{1em}{}
 
 
 % Informações de dados para CAPA e FOLHA DE ROSTO
-\titulo{\uppercase{PWA}}
+\titulo{\uppercase{Desenvolvimento de Progressives Web Apps e Análise Comparativa com Aplicações Móveis Nativas}}
 \autor{Pedro Cruz}
 \local{Fortaleza, Ceará}
 \data{2019}

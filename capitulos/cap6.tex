@@ -2,7 +2,7 @@
 Este capítulo visa demonstrar como desenvolver uma aplicação com suporte à \ac{PWA}. Basicamente o app consiste em 3 telas. Será apresentada uma aplicação que utiliza alguns recursos de uma \ac{PWA}, como, funcionamento \textit{offline}, câmera do dispositivo, localização atual, notificações e \textit{background sync}. Para isso foi utilizado algumas ferramentas como \textit{Firebase}, \textit{Workbox} e \textit{IndexedDB}.
 
 \section{Ferramentas Utilizadas}
-\subsection*{Firebase}
+\subsection{Firebase}
 De acordo com \cite{firebase} "O Firebase é uma plataforma do Google que contém várias ferramentas e uma excelente infraestrutura para ajudar desenvolvedores web e mobile a criar aplicações de alta qualidade e performance". Para o desenvolvimento do app, serão utilizados alguns recursos disponibilizados pelo firebase:
 
 \begin{itemize}
@@ -11,11 +11,11 @@ De acordo com \cite{firebase} "O Firebase é uma plataforma do Google que conté
 	\item \textbf{Notifications}: Serviço de envio de notificações para usuários conectados.
 \end{itemize}
 
-\subsection*{IndexedDB}
+\subsection{IndexedDB}
 O \textit{indexedDB} é um banco de dados disponibilizado pelo \textit{browser}, segundo \cite{indexdb} "\textit{IndexedDB} é uma \ac{API} para armazenamento \textit{client-side} de quantidades significantes de informações e buscas com alta performance por índices". \textit{IndexedDB} é a solução para grande porção de dados estruturados.
 
-\subsection*{Workbox}
-O \textit{workbox} é uma ferramenta, que vai nos ajudar a manipular, de forma mais simples, o \textit{service worker} da aplicação. Segundo \cite{workbox} "O \textit{workbox} é um conjunto de bibliotecas e módulos que facilitam o armazenamento em cache e aproveitam ao máximo os recursos usados para criar uma \ac{PWA}".
+\subsection{Workbox}
+O \textit{workbox} é uma ferramenta, que vai nos ajudar a manipular, de forma mais simples, o \textit{service worker} da aplicação. Segundo \cite{workbox} "O \textit{workbox} é um conjunto de bibliotecas e módulos que facilitam o armazenamento em \textit{cache} e aproveitam ao máximo os recursos usados para criar uma \ac{PWA}".
 
 \section{Conhecendo o Aplicativo}
 Para esse projeto foi desenvolvido um aplicativo que realiza postagens. Cada uma dessas postagem deve possuir além da  imagem, uma descrição e a localização de onde foi realizado tal evento. O aplicativo desenvolvido têm três telas:
@@ -26,7 +26,7 @@ Para esse projeto foi desenvolvido um aplicativo que realiza postagens. Cada uma
 		\centering
 		\caption{Tela Inicial}
 		\frame{\includegraphics[scale=0.20]{images/tela_inicial.png}}\\
-		Fonte: (Elaborado Pelo Autor, 2019)
+		{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 		\label{telaInicial}
 	\end{figure}
 
@@ -36,7 +36,7 @@ Para esse projeto foi desenvolvido um aplicativo que realiza postagens. Cada uma
 		\centering
 		\caption{Tela de Criação de Post}
 		\frame{\includegraphics[scale=0.07]{images/tela_post.png}}\\
-		Fonte: (Elaborado Pelo Autor, 2019)
+		{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 		\label{telaDePost}
 	\end{figure}
 	
@@ -45,7 +45,7 @@ Para esse projeto foi desenvolvido um aplicativo que realiza postagens. Cada uma
 		\centering
 		\caption{Tela de Ajuda}
 		\frame{\includegraphics[scale=0.14]{images/tela_ajuda.png}}\\
-		Fonte: (Elaborado Pelo Autor, 2019)
+		{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 		\label{telaDeAjuda}
 	\end{figure}
 \end{itemize}
@@ -53,16 +53,16 @@ Para esse projeto foi desenvolvido um aplicativo que realiza postagens. Cada uma
 \section{Configurações Inicias Do Aplicativo com PWA}
 
 \subsection*{Adicionando suporte à PWA}
-Para o aplicativo desenvolvido usar recursos PWA, temos que adicionar um arquivo de manifesto e um arquivo de configuração do Service Worker.
+ Para o aplicativo desenvolvido usar recursos PWA, tem-se que adicionar um  arquivo de configuração do \textit{Service Worker}.
 
-\subsubsection{Arquivo de Manifesto}
-O manifesto da nossa aplicação é configurado por meio de um arquivo de texto, onde possibilita-nos a adicionar informações relevantes sobre o nosso aplicativo. Com o arquivo de manifesto configurado nossa aplicação agora pode ser adicionada a tela inicial \cite{manifestfile}. Abaixo a \autoref{f_c4_pwa_custom} que ilustra isso:
+\subsection{Arquivo de Manifesto}
+O manifesto da nossa aplicação é configurado por meio de um arquivo de texto, onde possibilita adicionar informações relevantes sobre o aplicativo. Com o arquivo de manifesto configurado nossa aplicação agora pode ser adicionada a tela inicial \cite{manifestfile}. Abaixo a \autoref{f_c4_pwa_custom} que ilustra isso:
 
 \begin{figure}[!htpb]
 	\centering
 	\caption{Adicionando App}
 	\frame{\includegraphics[scale=0.2]{images/pwa_add.jpeg}}\\
-	Fonte: (Elaborado Pelo Autor, 2019)
+	{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 	\label{f_c4_pwa_custom}
 \end{figure}
 
@@ -70,7 +70,7 @@ E para exemplificar, no \autoref{lst:arquivoManifest} abaixo é mostrado como o 
 
 \newpage
 
-\begin{lstlisting}[frame=single,label=lst:arquivoManifest,caption=Arquivo Manifesto, basicstyle=\footnotesize]
+\begin{lstlisting}[frame=single,label=lst:arquivoManifest,caption=Arquivo Manifesto, basicstyle=\footnotesize,]
 {
   "name": "TCC App - Progressive Web App",
    "short_name": "PWA TCC",
@@ -98,8 +98,8 @@ E para exemplificar, no \autoref{lst:arquivoManifest} abaixo é mostrado como o 
 	\captionof*{lstlisting}{Fonte: (Elaborado Pelo Autor, 2019)}
 \end{center}
 
-\subsection*{Service Worker}
-Como o service worker é um script do navegador que executa em segundo plano \cite{servicework}. No primeiro momento vamos apenas configura-lo para fazer cache de alguns recursos úteis a nossa aplicação, como, arquivos javascript, css, imagens e páginas html do aplicativo. Para configurar o service worker, será criado um arquivo javascript, que utilizará uma biblioteca externa chamada \textit{workbox}. O Workbox nós ajudará a configurar o service worker de maneira mais fácil, já que ele encapsula, muito código para nós \cite{workbox}. A seguir, o \autoref{lst:serviceWoker} mostra a configuração inicial do  service worker.
+\subsection{Service Worker}
+Como o \textit{service worker} é um \textit{script} do navegador que executa em segundo plano. No primeiro momento vamos apenas configura-lo para fazer cache de alguns recursos úteis a nossa aplicação, como, arquivos \textit{javascript}, css, imagens e páginas html do aplicativo. Para configurar o \textit{service worker}, será criado um arquivo \textit{javascript}, que utilizará uma biblioteca externa chamada \textit{workbox}. O \textit{Workbox} nós ajudará a configurar o \textit{service worker} de maneira mais fácil, já que ele abstrai, muito código \cite{workbox}. O \autoref{lst:serviceWoker} mostra a configuração inicial do  \textit{service worker}.
 
 \newpage
 
@@ -144,8 +144,8 @@ workboxSW.precache([{
 \end{center}
 
 \section{Recursos Avançados do Service Worker}
-\subsection*{Cache das Postagens}
-Com o service worker configurado, um recurso importante do aplicativo é a listagem de postagens, é possível configurar o service worker, para fazer o cache das postagens a medida que forem sendo carregadas, assim tornando o aplicativo funcional mesmo em modo offline. No arquivo de configuração do service worker, criaremos um interceptador para a rota de listagem de Postagens e faremos o tratamento para guardar os dados em cache quando necessário. O \autoref{lst:cacheResponse} mostra o código necessário para que isso seja possível:
+\subsection{Cache das Postagens}
+Com o \textit{service worker} configurado, um recurso importante do aplicativo é a listagem de postagens, é possível configurar o \textit{service worker}, para fazer o \textit{cache} das postagens a medida que forem sendo carregadas, assim tornando o aplicativo funcional mesmo em modo \textit{offline}. No arquivo de configuração do \textit{service worker}, criaremos um interceptador para a rota de listagem de Postagens e faremos o tratamento para guardar os dados em cache quando necessário. O \autoref{lst:cacheResponse} mostra o código necessário para que isso seja possível:
 \begin{lstlisting}[frame=single,label=lst:cacheResponse,caption=Armazendo Post, basicstyle=\footnotesize]
 workboxSW.router.registerRoute(`https://${FIREBASE_URL}/posts.json`, function(args) {
 return fetch(args.event.request)
@@ -170,20 +170,20 @@ return res;
 	\captionof*{lstlisting}{Fonte: (Elaborado Pelo Autor, 2019)}
 \end{center}
 
-Na configuração acima, os dados retornados da requisição, são guardados no IndexedDB, na tabela 'posts'. Quando a requisição é retornada, os dados da tabela 'posts' são limpos, para então ser salvos, afim de manter-mos sempre dados validos no IndexedDB.
+Na configuração acima, os dados retornados da requisição, são guardados no \textit{IndexedDB}, na tabela 'posts'. Quando a requisição é retornada, os dados da tabela 'posts' são limpos, para então ser salvos, afim de manter-mos sempre dados validos no \textit{IndexedDB}.
 
-\subsection*{Ações Customizadas}
-O service worker nos permite customizar ações de tratamento, quando nossa aplicação estiver offline, e um recurso interessante que será adicionado, é a exibição de uma página customizada, quando o usuário tenta acessar um recurso offline e que ainda não foi cacheado pelo service worker, também conhecida como \textit{fallback page} como mostra a \autoref{offline}.
+\subsection{Ações Customizadas}
+O \textit{service worker} nos permite customizar ações de tratamento, quando nossa aplicação estiver \textit{offline}, e um recurso interessante que será adicionado, é a exibição de uma página customizada, quando o usuário tenta acessar um recurso offline e que ainda não foi cacheado pelo \textit{service worker}, também conhecida como \textit{fallback page} como mostra a \autoref{offline}.
 
 \begin{figure}[!htpb]
 	\centering
 	\caption{Tela Offline}
 	\frame{\includegraphics[scale=0.24]{images/pwa_offline.png}}\\
-	Fonte: (Elaborado Pelo Autor, 2019)
+	{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 	\label{offline}
 \end{figure}
 
-Abaixo  o \autoref{lst:customizado} mostra configuração do service worker, para exibir uma página customizada:
+O \autoref{lst:customizado} mostra configuração do \textit{service worker}, para exibir uma página customizada:
 
 \newpage
 
@@ -220,10 +220,10 @@ return res;
 	\captionof*{lstlisting}{Fonte: (Elaborado Pelo Autor, 2019)}
 \end{center}
 
-\subsection*{Sincronização de Dados em Background}
-Um recurso interessante que o aplicativo possuí é o envio de postagens, mesmo o usuário estando offline, o service worker, possui um evento de sync, onde nele é possível verificar se o aplicativo está com acesso a internet e realizar uma determinada ação \cite{servicework}. 
+\subsection{Sincronização de Dados em Background}
+Um recurso interessante que o aplicativo possuí é o envio de postagens, mesmo o usuário estando \textit{offline}, o \textit{service worker}, possui um evento de \textit{sync}, onde nele é possível verificar se o aplicativo está com acesso a internet e realizar uma determinada ação \cite{servicework}. 
 \newline{}
-Ao cadastrar uma postagem, será salvo no IndexedDB, o body da requisição para o servidor na tabela 'sync-posts', após isso será registrado um evento 'sync', com a tag 'sync-new-posts' no service worker, para que ele trate-o logo mais. Abaixo o \autoref{lst:sync} com o código das configurações:
+Ao cadastrar uma postagem, será salvo no \textit{IndexedDB}, o body da requisição para o servidor na tabela 'sync-posts', após isso será registrado um evento 'sync', com a tag 'sync-new-posts' no \textit{service worker}, para que ele trate-o logo mais. O \autoref{lst:sync} com o código das configurações:
 \begin{lstlisting}[frame=single,label=lst:sync,caption=Sicronização Em Background, basicstyle=\footnotesize]
 if ('serviceWorker' in navigator && 'SyncManager' in window) {
 navigator.serviceWorker.ready
@@ -258,7 +258,7 @@ sendData();
 \end{center}
 
 
-Para o service worker tratar o evento que acabou de ser transmitido, é necessário implementar uma função. Para isso verificaremos se o evento transmitido terá a tag 'sync-new-posts', que foi passada previamente, e assim podemos tratar os dados da forma que quisermos, nesse caso, vai ser chamada os dados do IndexedDB, referente a tabela 'sync-posts' e enviaremos os dados para o servidor Firebase, e por fim, limpamos os dados da tabela 'sync-posts', que acabaram de ser salvos. A seguir o código da função implementada é mostrada no \autoref{lst:limparDados}:
+Para o \textit{service worker} tratar o evento que acabou de ser transmitido, é necessário implementar uma função. Para isso verificaremos se o evento transmitido terá a tag 'sync-new-posts', que foi passada previamente, e assim podemos tratar os dados da forma que quisermos, nesse caso, vai ser chamada os dados do \textit{IndexedDB}, referente a tabela 'sync-posts' e enviaremos os dados para o servidor \textit{Firebase}, e por fim, limpamos os dados da tabela 'sync-posts', que acabaram de ser salvos. A seguir o código da função implementada é mostrada no \autoref{lst:limparDados}:
 
 \begin{lstlisting}[frame=single,label=lst:limparDados,caption=Limpando Dados, basicstyle=\footnotesize]
 self.addEventListener('sync', function(event) {
@@ -293,14 +293,14 @@ deleteItemFromData('sync-posts', resData.id);
 	\captionof*{lstlisting}{Fonte: (Elaborado Pelo Autor, 2019)}
 \end{center}
 
-\subsection*{Notificações}
-Notificações é uma ferramenta importante para informar o usuário sobre um determinado evento, tendo isso em vista, o aplicativo desenvolvido vai enviar notificações para os usuários quando for criada uma nova postagem. Para a criação do fluxo de notificação foi usado o Firebase e configurações no arquivo do service worker. Em um primeiro momento é necessário verificar se o usuário deseja receber notificações, por isso, o aplicativo possui um botão que habilita as notificações. Como mostra a figura \autoref{notificacao}.
+\subsection{Notificações}
+Notificações é uma ferramenta importante para informar o usuário sobre um determinado evento, tendo isso em vista, o aplicativo desenvolvido vai enviar notificações para os usuários quando for criada uma nova postagem. Para a criação do fluxo de notificação foi usado o \textit{Firebase} e configurações no arquivo do \textit{service worker}. Em um primeiro momento é necessário verificar se o usuário deseja receber notificações, por isso, o aplicativo possui um botão que habilita as notificações. Como mostra a figura \autoref{notificacao}.
 
 \begin{figure}[!htpb]
 	\centering
 	\caption{Habilitar Notificações}
 	\frame{\includegraphics[scale=0.15]{images/pwa_notification.png}}\\
-	Fonte: (Elaborado Pelo Autor, 2019)
+	{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 	\label{notificacao}
 \end{figure}
 
@@ -320,7 +320,7 @@ enableNotificationsButtons[i].addEventListener('click', askForNotificationPermis
 \end{center}
 
 \newpage
-O browser tendo suporte as notificações, é necessário a permissão do usuário para podermos utiliza-las. Como mostra o \autoref{lst:permissao}.
+O \textit{browser} tendo suporte as notificações, é necessário a permissão do usuário para podermos utiliza-las. Como mostra o \autoref{lst:permissao}.
 
 \begin{lstlisting}[frame=single,label=lst:permissao,caption=Pedindo permissão ao usuário, basicstyle=\footnotesize]
 function askForNotificationPermission() {
@@ -338,7 +338,8 @@ configurePushSub();
 \begin{center}
 	\captionof*{lstlisting}{Fonte: (Elaborado Pelo Autor, 2019)}
 \end{center}
-O usuário dando permissão para o aplicativo usar as notificações, podemos configurar-las e criar uma inscrição no Firebase, essa inscrição vai auxiliar no envio das notificações, como uma identificação para o dispositivo do usuário e enviar a notificação para eles. Para essa ação, foi criada uma função que verifica se o dispositivo já possui uma inscrição, senão, cria uma notificação no Firebase.
+
+O usuário dando permissão para o aplicativo usar as notificações, podemos configurar-las e criar uma inscrição no \textit{Firebase}, essa inscrição vai auxiliar no envio das notificações, como uma identificação para o dispositivo do usuário e enviar a notificação para eles. Para essa ação, foi criada uma função que verifica se o dispositivo já possui uma inscrição,conforme pode ser visto no Quadro 9.
 
 
 \begin{lstlisting}[frame=single,label=lst:inscricao,caption=Configurando Push Notifications, basicstyle=\footnotesize]
@@ -387,7 +388,7 @@ console.log(err);
 
 
 \newpage
-No retorno da requisição para o Firebase, se tudo ocorrer bem, é chamada uma função que exibe para o usuário uma notificação, pré configurada.
+No retorno da requisição para o \textit{Firebase}, se tudo ocorrer bem, é chamada uma função que exibe para o usuário uma notificação, pré configurada, conforme exibido no Quadro 10..
 \begin{lstlisting}[frame=single,label=lst:pushNotificacao,caption= Notificação Pré configurada, basicstyle=\footnotesize]
 function displayConfirmNotification() {
 if ('serviceWorker' in navigator) {
@@ -425,11 +426,11 @@ A \autoref{configuracaoNotificacao}, mostra  o exemplo, de como será exibido a 
 	\centering
 	\caption{Notificação Pré Configurada}
 	\frame{\includegraphics[scale=0.15]{images/pwa_default_notification.jpeg}}\\
-	Fonte: (Elaborado Pelo Autor, 2019)
+	{\footnotesize Fonte: (Elaborado Pelo Autor, 2019)}
 	\label{configuracaoNotificacao}
 \end{figure}
 
-Por fim, para exibir as notificações, é necessário, configurar o service worker. O service worker possui o evento 'push', onde configuramos uma função para o tratamento das notificações.
+Por fim, para exibir as notificações, é necessário, configurar o service worker. O \textit{service worker} possui o evento 'push', onde é configurada uma função para o tratamento das notificações, conforme mostra o \autoref{lst:notificacaoPersonalixada}.
 \begin{lstlisting}[frame=single,label=lst:notificacaoPersonalixada,caption= Notificação personalizada, basicstyle=\footnotesize]
 self.addEventListener('push', function(event) {
 console.log('Push Notification received', event);

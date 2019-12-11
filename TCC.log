@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.26)  26 NOV 2019 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.21)  11 DEC 2019 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,6 +1117,9 @@ Package caption Info: listings package is loaded.
 \c@subfigure=\count189
 \c@subtable=\count190
 )
+(/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1145,34 +1148,30 @@ LaTeX Warning: Unused global option(s):
 
 (./TCC.aux (./abreviaturas/abreviaturas.aux) (./capitulos/cap1.aux)
 (./capitulos/cap2.aux) (./capitulos/cap3.aux) (./capitulos/cap4.aux)
-(./capitulos/cap5.aux) (./capitulos/cap6.aux
-
-LaTeX Warning: Label `f_c4_pwa_custom' multiply defined.
-
-) (./capitulos/cap7.aux))
+(./capitulos/cap5.aux) (./capitulos/cap6.aux) (./capitulos/cap7.aux))
 \openout1 = `TCC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1184,18 +1183,18 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 82.
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
-LaTeX Info: Redefining \degres on input line 82.
-LaTeX Info: Redefining \dots on input line 82.
-LaTeX Info: Redefining \up on input line 82.
+LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \ref on input line 97.
+LaTeX Info: Redefining \pageref on input line 97.
+LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \degres on input line 97.
+LaTeX Info: Redefining \dots on input line 97.
+LaTeX Info: Redefining \up on input line 97.
 \myptabbox=\box36
 \myptabboxwidth=\skip268
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 82.
+(lastpage)             ! on input line 97.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count192
@@ -1226,7 +1225,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 82.
+LaTeX Info: Redefining \microtypecontext on input line 97.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1246,10 +1245,10 @@ Package caption Info: End \AtBeginDocument code.
 <flf.png, id=4, 428.60126pt x 259.97125pt>
 File: flf.png Graphic file (type png)
 <use flf.png>
-Package pdftex.def Info: flf.png  used on input line 90.
+Package pdftex.def Info: flf.png  used on input line 105.
 (pdftex.def)             Requested size: 214.3001pt x 129.9853pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 90.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 105.
 
 [1
 
@@ -1265,17 +1264,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 93.
+(Font)              <12> on input line 108.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 93.
+(Font)              <8> on input line 108.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 93.
+(Font)              <6> on input line 108.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 
-      [1
+l.108 
+       [1
 
 
 
@@ -1293,14 +1292,20 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 
 
 
-] (./TCC.toc [5
+] (./TCC.toc
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 7.
+
+Overfull \hbox (10.97818pt too wide) in paragraph at lines 28--28
+ [][] [][][]\T1/phv/b/n/17.28 CONHECENDO AS PRO-GRES-SI-VES WEB APPS[][] []  
+ []
+
+[5
 
 ]) [6]
 \openout2 = `capitulos/cap1.aux'.
 
  (./capitulos/cap1.tex
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
 Package acronym Info: Label `acro:PWA' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 ) [7
@@ -1312,229 +1317,219 @@ although it is yet undefined on input line 7.
 
  (./capitulos/cap2.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 12.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
 Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
 
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:WWW' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:HTML' newly defined as it shall be overridden
 
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:CSS' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
+although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:W3C' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
-
-[8
+although it is yet undefined on input line 16.
+ [8
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 26.
  [9] [10]
-<images/cliente-servidor.JPG, id=304, 389.20406pt x 286.82156pt>
+<images/cliente-servidor.JPG, id=305, 389.20406pt x 286.82156pt>
 File: images/cliente-servidor.JPG Graphic file (type jpg)
 <use images/cliente-servidor.JPG>
-Package pdftex.def Info: images/cliente-servidor.JPG  used on input line 48.
-(pdftex.def)             Requested size: 233.52423pt x 172.09425pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+Package pdftex.def Info: images/cliente-servidor.JPG  used on input line 47.
+(pdftex.def)             Requested size: 190.71165pt x 140.54378pt.
 Package acronym Info: Label `acro:UI' newly defined as it shall be overridden
-although it is yet undefined on input line 53.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 56.
+although it is yet undefined on input line 52.
+ [11 <./images/cliente-servidor.JPG>]
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 55.
+
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [11] [12 <./images/cliente-servidor.JPG>]
-<images/multicamada.jpg, id=334, 676.5275pt x 274.02374pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+ [12]
+<images/multicamada.jpg, id=335, 676.5275pt x 274.02374pt>
 File: images/multicamada.jpg Graphic file (type jpg)
 <use images/multicamada.jpg>
-Package pdftex.def Info: images/multicamada.jpg  used on input line 85.
+Package pdftex.def Info: images/multicamada.jpg  used on input line 84.
 (pdftex.def)             Requested size: 398.33858pt x 161.35065pt.
  [13 <./images/multicamada.jpg>]
 Package acronym Info: Label `acro:SGBD' newly defined as it shall be overridden
 
-although it is yet undefined on input line 100.
+although it is yet undefined on input line 99.
  [14] [15]
-<images/app-monolitica.png, id=373, 602.25pt x 305.14pt>
+<images/app-monolitica.png, id=374, 602.25pt x 305.14pt>
 File: images/app-monolitica.png Graphic file (type png)
 <use images/app-monolitica.png>
-Package pdftex.def Info: images/app-monolitica.png  used on input line 142.
+Package pdftex.def Info: images/app-monolitica.png  used on input line 130.
 (pdftex.def)             Requested size: 421.57211pt x 213.59653pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16]
-Package acronym Info: Label `acro:JS' newly defined as it shall be overridden
-although it is yet undefined on input line 151.
+ [16 <./images/app-monolitica.png (PNG copy)>]
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 154.
- [17 <./images/app-monolitica.png (PNG copy)>]
+although it is yet undefined on input line 158.
 Package acronym Info: Label `acro:HTTP' newly defined as it shall be overridden
 
-although it is yet undefined on input line 180.
- [18]
-<images/micro-deployment.png, id=411, 780.9175pt x 364.36125pt>
+although it is yet undefined on input line 158.
+
+[17]
+<images/micro-deployment.png, id=394, 780.9175pt x 364.36125pt>
 File: images/micro-deployment.png Graphic file (type png)
 <use images/micro-deployment.png>
-Package pdftex.def Info: images/micro-deployment.png  used on input line 187.
-(pdftex.def)             Requested size: 426.79134pt x 199.13168pt.
- [19 <./images/micro-deployment.png>]) [20]
+Package pdftex.def Info: images/micro-deployment.png  used on input line 165.
+(pdftex.def)             Requested size: 398.33858pt x 185.85513pt.
+ [18 <./images/micro-deployment.png>]) [19]
 \openout2 = `capitulos/cap3.aux'.
 
  (./capitulos/cap3.tex
-Underfull \hbox (badness 1221) in paragraph at lines 4--4
-[]\T1/phv/b/n/24.88 Arquitetura dos Dis-po-si-ti-vos Mó-
- []
-
 Package acronym Info: Label `acro:SO' newly defined as it shall be overridden
-although it is yet undefined on input line 8.
-<images/motorola_dynatac.jpg, id=429, 328.8285pt x 318.7107pt>
+although it is yet undefined on input line 11.
+<images/motorola_dynatac.jpg, id=412, 328.8285pt x 318.7107pt>
 File: images/motorola_dynatac.jpg Graphic file (type jpg)
 <use images/motorola_dynatac.jpg>
 Package pdftex.def Info: images/motorola_dynatac.jpg  used on input line 18.
-(pdftex.def)             Requested size: 98.6493pt x 95.61394pt.
+(pdftex.def)             Requested size: 65.76453pt x 63.741pt.
+ [20
+
+
+
+ <./images/motorola_dynatac.jpg>]
 Package acronym Info: Label `acro:PDA' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
-[21
-
-
-
-]
-<images/IBM_Simon.jpg, id=446, 602.25pt x 602.25pt>
+<images/IBM_Simon.jpg, id=429, 602.25pt x 602.25pt>
 File: images/IBM_Simon.jpg Graphic file (type jpg)
 <use images/IBM_Simon.jpg>
 Package pdftex.def Info: images/IBM_Simon.jpg  used on input line 31.
-(pdftex.def)             Requested size: 313.1718pt x 313.1718pt.
-<images/nokia_communicator_9000.jpg, id=452, 240.9pt x 266.9172pt>
+(pdftex.def)             Requested size: 180.67639pt x 180.67639pt.
+<images/nokia_communicator_9000.jpg, id=435, 240.9pt x 266.9172pt>
 File: images/nokia_communicator_9000.jpg Graphic file (type jpg)
 <use images/nokia_communicator_9000.jpg>
 Package pdftex.def Info: images/nokia_communicator_9000.jpg  used on input line
  41.
 (pdftex.def)             Requested size: 192.72025pt x 213.53404pt.
- [22 <./images/motorola_dynatac.jpg> <./images/IBM_Simon.jpg>] [23 <./images/no
-kia_communicator_9000.jpg>]
-<images/iPhone.jpg, id=468, 1027.84pt x 853.1875pt>
+ [21 <./images/IBM_Simon.jpg>]
+<images/iPhone.jpg, id=447, 1027.84pt x 853.1875pt>
 File: images/iPhone.jpg Graphic file (type jpg)
 <use images/iPhone.jpg>
 Package pdftex.def Info: images/iPhone.jpg  used on input line 52.
 (pdftex.def)             Requested size: 226.12549pt x 187.70183pt.
-) [24 <./images/iPhone.jpg>] [25]
+ [22 <./images/nokia_communicator_9000.jpg> <./images/iPhone.jpg>]) [23]
 \openout2 = `capitulos/cap4.aux'.
 
-
-(./capitulos/cap4.tex [26
+ (./capitulos/cap4.tex
+[24
 
 
 
 ]
 Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
- [27] [28]
-<images/sw-lifecycle.png, id=533, 704.6325pt x 687.56876pt>
+ [25]
+Package acronym Info: Label `acro:JS' newly defined as it shall be overridden
+although it is yet undefined on input line 41.
+<images/sw-lifecycle.png, id=508, 704.6325pt x 687.56876pt>
 File: images/sw-lifecycle.png Graphic file (type png)
 <use images/sw-lifecycle.png>
 Package pdftex.def Info: images/sw-lifecycle.png  used on input line 53.
-(pdftex.def)             Requested size: 199.16928pt x 194.34344pt.
+(pdftex.def)             Requested size: 126.82837pt x 123.75703pt.
+ [26 <./images/sw-lifecycle.png>]
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 65.
- [29 <./images/sw-lifecycle.png>]
-<images/add-to-home-screen.png, id=551, 813.0375pt x 481.8pt>
+<images/add-to-home-screen.png, id=526, 813.0375pt x 481.8pt>
 File: images/add-to-home-screen.png Graphic file (type png)
 <use images/add-to-home-screen.png>
 Package pdftex.def Info: images/add-to-home-screen.png  used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 202.32521pt.
- [30 <./images/add-to-home-screen.png>] [31] [32]
-<images/pwa_custom.png, id=597, 1722.435pt x 1245.65375pt>
+ [27] [28 <./images/add-to-home-screen.png>] [29]
+<images/pwa_custom.png, id=574, 1722.435pt x 1245.65375pt>
 File: images/pwa_custom.png Graphic file (type png)
 <use images/pwa_custom.png>
-Package pdftex.def Info: images/pwa_custom.png  used on input line 111.
-(pdftex.def)             Requested size: 369.88582pt x 267.48721pt.
-) [33 <./images/pwa_custom.png>]
+Package pdftex.def Info: images/pwa_custom.png  used on input line 110.
+(pdftex.def)             Requested size: 344.4809pt x 249.12633pt.
+ [30 <./images/pwa_custom.png>]) [31]
 \openout2 = `capitulos/cap5.aux'.
 
+ (./capitulos/cap5.tex
+[32
 
-(./capitulos/cap5.tex [34
 
 
-
-] [35] [36]) [37]
+] [33]) [34]
 \openout2 = `capitulos/cap6.aux'.
 
- (./capitulos/cap6.tex [38
+ (./capitulos/cap6.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+ [35
 
 
 
 ]
-<images/tela_inicial.png, id=663, 750.805pt x 1573.88pt>
+<images/tela_inicial.png, id=640, 750.805pt x 1573.88pt>
 File: images/tela_inicial.png Graphic file (type png)
 <use images/tela_inicial.png>
 Package pdftex.def Info: images/tela_inicial.png  used on input line 28.
 (pdftex.def)             Requested size: 150.15834pt x 314.77043pt.
- [39 <./images/tela_inicial.png>]
-<images/tela_post.png, id=671, 1414.28375pt x 2872.7325pt>
+ [36 <./images/tela_inicial.png>]
+<images/tela_post.png, id=649, 1414.28375pt x 2872.7325pt>
 File: images/tela_post.png Graphic file (type png)
 <use images/tela_post.png>
 Package pdftex.def Info: images/tela_post.png  used on input line 38.
 (pdftex.def)             Requested size: 99.00998pt x 201.11182pt.
-<images/tela_ajuda.png, id=673, 750.805pt x 1573.88pt>
+<images/tela_ajuda.png, id=651, 750.805pt x 1573.88pt>
 File: images/tela_ajuda.png Graphic file (type png)
 <use images/tela_ajuda.png>
 Package pdftex.def Info: images/tela_ajuda.png  used on input line 47.
 (pdftex.def)             Requested size: 105.11198pt x 220.34169pt.
- [40 <./images/tela_post.png> <./images/tela_ajuda.png>]
-<images/pwa_add.jpeg, id=683, 722.7pt x 1284.8pt>
+
+[37 <./images/tela_post.png> <./images/tela_ajuda.png>]
+<images/pwa_add.jpeg, id=661, 722.7pt x 1284.8pt>
 File: images/pwa_add.jpeg Graphic file (type jpg)
 <use images/pwa_add.jpeg>
 Package pdftex.def Info: images/pwa_add.jpeg  used on input line 64.
 (pdftex.def)             Requested size: 144.53743pt x 256.95544pt.
-[41 <./images/pwa_add.jpeg>]
+ [38 <./images/pwa_add.jpeg>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 74.
- [42]
+ [39]
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
- [43] [44]
-<images/pwa_offline.png, id=780, 750.805pt x 1573.88pt>
+ [40] [41]
+<images/pwa_offline.png, id=755, 750.805pt x 1573.88pt>
 File: images/pwa_offline.png Graphic file (type png)
 <use images/pwa_offline.png>
 Package pdftex.def Info: images/pwa_offline.png  used on input line 181.
 (pdftex.def)             Requested size: 180.19687pt x 377.73892pt.
- [45 <./images/pwa_offline.png>]
-[46] [47] [48]
-<images/pwa_notification.png, id=882, 750.805pt x 1573.88pt>
+ [42 <./images/pwa_offline.png>] [43] [44] [45]
+<images/pwa_notification.png, id=857, 750.805pt x 1573.88pt>
 File: images/pwa_notification.png Graphic file (type png)
 <use images/pwa_notification.png>
 Package pdftex.def Info: images/pwa_notification.png  used on input line 302.
 (pdftex.def)             Requested size: 112.61589pt x 236.07181pt.
- [49 <./images/pwa_notification.png>] [50] [51] [52]
-<images/pwa_default_notification.jpeg, id=980, 722.7pt x 1284.8pt>
+ [46 <./images/pwa_notification.png>] [47] [48] [49]
+<images/pwa_default_notification.jpeg, id=956, 722.7pt x 1284.8pt>
 File: images/pwa_default_notification.jpeg Graphic file (type jpg)
 <use images/pwa_default_notification.jpeg>
 Package pdftex.def Info: images/pwa_default_notification.jpeg  used on input li
-ne 427.
+ne 428.
 (pdftex.def)             Requested size: 108.40031pt x 192.71169pt.
-) [53 <./images/pwa_default_notification.jpeg>]
+) [50 <./images/pwa_default_notification.jpeg>]
 \openout2 = `capitulos/cap7.aux'.
 
- (./capitulos/cap7.tex) [54
+ (./capitulos/cap7.tex) [51
 
 
 
-] (./TCC.bbl
-(./TCC.brf)
+] (./TCC.bbl (./TCC.brf)
 \tf@brf=\write6
 \openout6 = `TCC.brf'.
 
@@ -1544,14 +1539,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[55
+[52
 
 
 ])
 No file TCC.ind.
 
 AED: lastpage setting LastPage
-[56]
+[53]
 \tf@lof=\write7
 \openout7 = `TCC.lof'.
 
@@ -1561,27 +1556,27 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `TCC.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./TCC.aux (./abreviaturas/abreviaturas.aux) (./capitulos/cap1.aux)
 (./capitulos/cap2.aux) (./capitulos/cap3.aux) (./capitulos/cap4.aux)
 (./capitulos/cap5.aux) (./capitulos/cap6.aux) (./capitulos/cap7.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `TCC.brf' has not changed.
-(rerunfilecheck)             Checksum: D773A360A89FD9EC8F841EB4E8217C15;4310.
+(rerunfilecheck)             Checksum: 0E3BF33FD16EBABDB53029A8115E64F0;4138.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 19327 strings out of 492982
- 284744 string characters out of 6134896
- 653958 words of memory out of 5000000
- 21859 multiletter control sequences out of 15000+600000
- 49254 words of font info for 210 fonts, out of 8000000 for 9000
+ 19361 strings out of 492982
+ 284940 string characters out of 6134895
+ 654700 words of memory out of 5000000
+ 21877 multiletter control sequences out of 15000+600000
+ 57614 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,13n,45p,1373b,1974s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1591,10 +1586,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
 tic/uhvro8a.pfb>
-Output written on TCC.pdf (57 pages, 4628789 bytes).
+Output written on TCC.pdf (54 pages, 4628491 bytes).
 PDF statistics:
- 1369 PDF objects out of 1440 (max. 8388607)
- 1262 compressed objects within 13 object streams
- 443 named destinations out of 1000 (max. 500000)
- 27672 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1347 PDF objects out of 1440 (max. 8388607)
+ 1243 compressed objects within 13 object streams
+ 441 named destinations out of 1000 (max. 500000)
+ 29216 words of extra memory for PDF output out of 29859 (max. 10000000)
 
